@@ -168,3 +168,7 @@ Klassen
 *	SaveData
 *	UIManager
 
+![alt text](image.png)
+
+Skizze
+![alt text](Skizze-1.png)

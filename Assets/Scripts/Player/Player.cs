@@ -19,10 +19,9 @@ public class Movement : MonoBehaviour
     public bool canmove = true;
     bool dialogfin = false;
     public GameObject waffe1;
-    float timerangriff;
-    GameObject player;
-    Sprite crouch;
-    Sprite Normal;
+    SpriteRenderer sr;
+    Sprite[] playerSprites; 
+    
 
     void Start()
     {
@@ -30,32 +29,22 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
         collider2D = GetComponent<BoxCollider2D>();
-
+        playerSprites = new Sprite[3]; //hier ab ändern wenn man sprites added
     }
 
     // Update is called once per frame
 
     void Update()
     {
-        timerangriff += Time.deltaTime;
 
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             canjump = false;
-
         }
-        if (Keyboard.current.sKey.isPressed && canmove == true)
-        {
-            Crouch();
-        }
-
+        Crouch();
         Move();
-        if (Keyboard.current.spaceKey.isPressed && canjump == true && canmove == true)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
-            canjump = false;
-        }
+        Jump();
 
     }
 
@@ -140,6 +129,23 @@ public class Movement : MonoBehaviour
 
     public void Crouch()
     {
-        collider2D.size = new Vector2(1f, 1f);
+        if (Keyboard.current.sKey.isPressed && canmove == true)
+        {
+            collider2D.size = new Vector2(1f, 1f);
+            collider2D.offset = new Vector2(0f, -0.5f);
+        }
+        else
+        {
+            collider2D.size = new Vector2(1f, 2f);
+            collider2D.offset = new Vector2(0f, 0f);
+        }
+    }
+    public void Jump()
+    {
+        if (Keyboard.current.spaceKey.isPressed && canjump == true && canmove == true)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
+            canjump = false;
+        }
     }
 }
