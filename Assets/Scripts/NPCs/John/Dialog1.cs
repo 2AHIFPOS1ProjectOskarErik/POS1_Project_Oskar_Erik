@@ -23,7 +23,7 @@ public class Dialog1 : MonoBehaviour
 
     public bool RunDialog()
     {
-        text.rectTransform.anchoredPosition = new Vector2(-5f, 75f);
+        //text.rectTransform.anchoredPosition = new Vector2(-5f, 75f);
 
         if (timer >= 0.1f && text.text == "Drücke \"E\" um mit mir zu Interagieren!")
         {

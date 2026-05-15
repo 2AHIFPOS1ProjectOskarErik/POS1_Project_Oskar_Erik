@@ -88,7 +88,7 @@ public class Movement : MonoBehaviour
                 canmove = true;
                 camera.orthographicSize = 5f;
                 camera.transform.position = new Vector3(0f, 0f, -10f);
-                dialog1.text.transform.position = new Vector2(650, -300);
+                //dialog1.text.transform.position = new Vector2(650, -300);
             }
 
         }
