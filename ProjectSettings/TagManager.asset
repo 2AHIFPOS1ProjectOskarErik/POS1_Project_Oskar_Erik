@@ -8,6 +8,7 @@ TagManager:
   - Floor
   - NPC John
   - Weapon 1
+  - Simple Enemy
   layers:
   - Default
   - TransparentFX

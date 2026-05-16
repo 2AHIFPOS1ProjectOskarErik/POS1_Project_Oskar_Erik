@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
     bool dialogfin = false;
     public GameObject waffe1;
     SpriteRenderer sr;
-    Sprite[] playerSprites; 
+    public double hp = 5;
     
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         rb.freezeRotation = true;
         collider2D = GetComponent<BoxCollider2D>();
-        playerSprites = new Sprite[3]; //hier ab �ndern wenn man sprites added
+        collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
     }
 
     // Update is called once per frame
@@ -50,7 +50,10 @@ public class Movement : MonoBehaviour
         Crouch();
         Move();
         Jump();
-
+        if (hp <= 0)
+        {
+            Die();
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -108,7 +111,7 @@ public class Movement : MonoBehaviour
             if (collision.gameObject.CompareTag("Floor"))
 
                 canjump = true;
-            dialog1.text.text = "Dr�cke \"E\" um mit mir zu Interagieren!";
+            dialog1.text.text = "Druecke \"E\" um mit mir zu Interagieren!";
             dialogfin = false;
         }
 
@@ -159,5 +162,15 @@ public class Movement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
             canjump = false;
         }
+    }
+
+    public void TakeDamage()
+    {
+        hp -= 0.5;
+    }
+
+    public void Die()
+    {
+        
     }
 }
