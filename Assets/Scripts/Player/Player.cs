@@ -10,6 +10,7 @@ using Unity.VisualScripting;
 
 public class Movement : MonoBehaviour
 {
+
     Camera camera;
     Rigidbody2D rb;
     BoxCollider2D collider2D;
@@ -22,14 +23,18 @@ public class Movement : MonoBehaviour
     SpriteRenderer sr;
     Sprite[] playerSprites; 
     
+    //start tutorialvideo code:
+    [SerializeField] private Animator _animation;
+    //ende tutorialvideo code:
 
     void Start()
     {
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         rb.freezeRotation = true;
         collider2D = GetComponent<BoxCollider2D>();
-        playerSprites = new Sprite[3]; //hier ab ändern wenn man sprites added
+        playerSprites = new Sprite[3]; //hier ab ï¿½ndern wenn man sprites added
     }
 
     // Update is called once per frame
@@ -103,7 +108,7 @@ public class Movement : MonoBehaviour
             if (collision.gameObject.CompareTag("Floor"))
 
                 canjump = true;
-            dialog1.text.text = "Drücke \"E\" um mit mir zu Interagieren!";
+            dialog1.text.text = "Drï¿½cke \"E\" um mit mir zu Interagieren!";
             dialogfin = false;
         }
 
@@ -116,13 +121,20 @@ public class Movement : MonoBehaviour
         float move = 0;
         if (Keyboard.current.dKey.isPressed && canmove == true)
         {
+            _animation.SetBool("IsRunning", true);
+            sr.flipX = false;
             move = 1;
         }
         if (Keyboard.current.aKey.isPressed && canmove == true)
         {
-
+            _animation.SetBool("IsRunning", true);
             move = -1;
+            sr.flipX = true;
+        }
 
+        if (Keyboard.current.dKey.isPressed == false && Keyboard.current.aKey.isPressed == false)
+        {
+            _animation.SetBool("IsRunning", false);
         }
         rb.linearVelocity = new Vector2(move * 5f, rb.linearVelocity.y);
     }

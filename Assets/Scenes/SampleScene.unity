@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 185472964}
   - component: {fileID: 185472963}
   - component: {fileID: 185472961}
+  - component: {fileID: 185472965}
   m_Layer: 0
   m_Name: Weapon 1
   m_TagString: Weapon 1
@@ -393,6 +394,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1667674367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -56.469}
+--- !u!114 &185472965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185472960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog1
+  text: {fileID: 0}
 --- !u!1 &315658683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +1268,7 @@ GameObject:
   - component: {fileID: 1193204052}
   - component: {fileID: 1193204051}
   - component: {fileID: 1193204056}
+  - component: {fileID: 1193204057}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1276,6 +1291,7 @@ MonoBehaviour:
   dialog1: {fileID: 1468571221}
   canmove: 1
   waffe1: {fileID: 185472960}
+  _animation: {fileID: 1193204057}
 --- !u!61 &1193204052
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1310,17 +1326,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.6170132, y: -0.03940761}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 1.16, y: 0.52, z: 2.28, w: 0.71999997}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 5.12, y: 3.84}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1.4961109, y: 2.6197374}
   m_EdgeRadius: 0
 --- !u!50 &1193204053
 Rigidbody2D:
@@ -1396,7 +1412,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58ae80fcbafaf43409f6c37383ba9a8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1416,7 +1432,7 @@ Transform:
   m_GameObject: {fileID: 1193204050}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.73, y: -1.15, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1439,6 +1455,28 @@ MonoBehaviour:
   attackSpeed: 10
   startAngle: 45
   endAngle: -90
+--- !u!95 &1193204057
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193204050}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c9e20452d9f829b478e768fbe89790c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1214506355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1737,7 @@ GameObject:
   - component: {fileID: 1766129804}
   - component: {fileID: 1766129803}
   - component: {fileID: 1766129805}
+  - component: {fileID: 1766129806}
   m_Layer: 0
   m_Name: NPC "John"
   m_TagString: NPC John
@@ -1754,11 +1793,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.11569952, g: 0.5081231, b: 0.9811321, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1.28, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1818,13 +1857,26 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 2}
-    newSize: {x: 1, y: 2}
+    newSize: {x: 1.28, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 4, y: 3.9662402}
   m_EdgeRadius: 0
+--- !u!114 &1766129806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766129802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog1
+  text: {fileID: 0}
 --- !u!1 &1941678545
 GameObject:
   m_ObjectHideFlags: 0
