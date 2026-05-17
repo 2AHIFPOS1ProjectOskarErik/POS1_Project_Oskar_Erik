@@ -22,6 +22,7 @@ public class Movement : MonoBehaviour
     public GameObject waffe1;
     SpriteRenderer sr;
     public double hp = 5;
+    float timerdmg;
     
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
@@ -35,6 +36,7 @@ public class Movement : MonoBehaviour
         rb.freezeRotation = true;
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
+        
     }
 
     // Update is called once per frame
@@ -54,6 +56,7 @@ public class Movement : MonoBehaviour
         {
             Die();
         }
+        timerdmg += Time.deltaTime;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -101,6 +104,11 @@ public class Movement : MonoBehaviour
 
         }
 
+        if (collision.gameObject.CompareTag("Simple Enemy"))
+        {
+            TakeDamage();
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -118,6 +126,8 @@ public class Movement : MonoBehaviour
 
 
     }
+
+    
 
     public void Move()
     {
@@ -166,11 +176,18 @@ public class Movement : MonoBehaviour
 
     public void TakeDamage()
     {
-        hp -= 0.5;
+        if (timer >= 1f)
+        {
+            hp -= 0.5;
+            timer = 0f;
+        }
+        
     }
+
+    
 
     public void Die()
     {
-        
+        SceneManager.LoadScene("Deathscreen");
     }
 }
