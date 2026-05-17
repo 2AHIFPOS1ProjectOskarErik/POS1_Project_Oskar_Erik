@@ -1609,6 +1609,7 @@ MonoBehaviour:
   dialog1: {fileID: 1468571221}
   canmove: 1
   waffe1: {fileID: 185472960}
+  hp: 5
   _animation: {fileID: 1193204057}
 --- !u!61 &1193204052
 BoxCollider2D:
@@ -1862,7 +1863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.46, y: -1.09}
+  m_AnchoredPosition: {x: 0.37, y: -1.27}
   m_SizeDelta: {x: 5.8845, y: 1.944}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468571221
@@ -2056,6 +2057,7 @@ GameObject:
   - component: {fileID: 1766129803}
   - component: {fileID: 1766129805}
   - component: {fileID: 1766129806}
+  - component: {fileID: 1766129807}
   m_Layer: 0
   m_Name: NPC "John"
   m_TagString: NPC John
@@ -2110,7 +2112,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2130,7 +2132,7 @@ Transform:
   m_GameObject: {fileID: 1766129802}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.02, y: -1.95, z: 0}
+  m_LocalPosition: {x: 2.93, y: -3.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2173,8 +2175,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: -0.016879916}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 3.2, y: 3.2}
     newSize: {x: 1.28, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2195,6 +2197,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialog1
   text: {fileID: 0}
+--- !u!95 &1766129807
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766129802}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c45b9bd7cac76834a830a6965c277d02, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1941678545
 GameObject:
   m_ObjectHideFlags: 0
