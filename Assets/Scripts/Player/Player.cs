@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour
     
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
+    [SerializeField] private Animator _animation_jump;
     //ende tutorialvideo code:
 
     void Start()
@@ -161,6 +162,7 @@ public class Movement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
             canjump = false;
+            
         }
     }
 
