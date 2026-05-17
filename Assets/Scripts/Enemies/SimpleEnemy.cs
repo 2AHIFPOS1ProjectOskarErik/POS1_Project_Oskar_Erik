@@ -7,8 +7,8 @@ public class SimpleEnemy : MonoBehaviour
     BoxCollider2D collider2D;
     float direction;
     float timer = 0f;
-     
-dw    void Start()
+
+    void Start()
     {
         direction = 1f;
         rb = GetComponent<Rigidbody2D>();
@@ -37,14 +37,14 @@ dw    void Start()
             }
         }
 
-        
+
     }
 
-    private void nCollisionStay2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+
         }
     }
 }
