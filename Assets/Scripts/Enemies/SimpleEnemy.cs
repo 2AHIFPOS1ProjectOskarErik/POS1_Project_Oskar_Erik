@@ -7,13 +7,19 @@ public class SimpleEnemy : MonoBehaviour
     BoxCollider2D collider2D;
     float direction;
     float timer = 0f;
-     
+    double hp = 5;
+    public GameObject enemy;
+    
     void Start()
     {
         direction = 1f;
         rb = GetComponent<Rigidbody2D>();
         collider2D = GetComponent<BoxCollider2D>();
         rb.freezeRotation = true;
+        if (hp <= 0)
+        {
+            enemy.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -36,7 +42,17 @@ public class SimpleEnemy : MonoBehaviour
                 direction = 1f;
             }
         }
-
+        if (collision.gameObject.CompareTag("Weapon 1"))
+        {
+            if (direction == 1f)
+            {
+                direction = -1f;
+            }
+            else if (direction == -1f)
+            {
+                direction = 1f;
+            }
+        }
     }
 }
 

@@ -10,7 +10,7 @@ using Unity.VisualScripting;
 
 public class Movement : MonoBehaviour
 {
-
+    public double dmg = 2;
     Camera camera;
     Rigidbody2D rb;
     BoxCollider2D collider2D;
@@ -23,7 +23,9 @@ public class Movement : MonoBehaviour
     SpriteRenderer sr;
     public double hp = 5;
     float timerdmg;
-    
+    float timeratkcool;
+    float timeratk;
+    private float oldy;
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
     [SerializeField] private Animator _animation_jump;
@@ -34,10 +36,9 @@ public class Movement : MonoBehaviour
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        rb.freezeRotation = true;
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
-        
+        rb.freezeRotation = true;
     }
 
     // Update is called once per frame
@@ -48,7 +49,11 @@ public class Movement : MonoBehaviour
 
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            canjump = false;
+            Attack();
+        }
+        if (timeratk >= 0.5)
+        {
+            waffe1.SetActive(false);
         }
         Crouch();
         Move();
@@ -58,6 +63,8 @@ public class Movement : MonoBehaviour
             Die();
         }
         timerdmg += Time.deltaTime;
+        timeratkcool += Time.deltaTime;
+        timeratk += Time.deltaTime;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -100,7 +107,6 @@ public class Movement : MonoBehaviour
                 canmove = true;
                 camera.orthographicSize = 5f;
                 camera.transform.position = new Vector3(0f, 0f, -10f);
-                //dialog1.text.transform.position = new Vector2(650, -300);
             }
 
         }
@@ -128,7 +134,7 @@ public class Movement : MonoBehaviour
 
     }
 
-    
+
 
     public void Move()
     {
@@ -136,14 +142,14 @@ public class Movement : MonoBehaviour
         if (Keyboard.current.dKey.isPressed && canmove == true)
         {
             _animation.SetBool("IsRunning", true);
-            sr.flipX = false;
+            transform.localScale = new Vector3(1, 1, 1);
             move = 1;
         }
         if (Keyboard.current.aKey.isPressed && canmove == true)
         {
             _animation.SetBool("IsRunning", true);
             move = -1;
-            sr.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
 
         if (Keyboard.current.dKey.isPressed == false && Keyboard.current.aKey.isPressed == false)
@@ -159,6 +165,8 @@ public class Movement : MonoBehaviour
         {
             collider2D.size = new Vector2(1f, 1f);
             collider2D.offset = new Vector2(0f, -0.5f);
+            
+            
         }
         else
         {
@@ -172,24 +180,36 @@ public class Movement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
             canjump = false;
-            
+
         }
     }
 
     public void TakeDamage()
     {
-        if (timer >= 1f)
+        if (timerdmg >= 1f)
         {
             hp -= 0.5;
-            timer = 0f;
+            timerdmg = 0f;
         }
-        
+
     }
 
-    
+
 
     public void Die()
     {
         SceneManager.LoadScene("Deathscreen");
+    }
+
+    public void Attack()
+    {
+        if (timeratkcool >= 1f)
+        {
+            timeratk = 0;
+            waffe1.SetActive(true);
+            timeratkcool = 0;
+            
+        }
+        
     }
 }
