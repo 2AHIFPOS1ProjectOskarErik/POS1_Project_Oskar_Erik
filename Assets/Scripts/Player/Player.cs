@@ -156,7 +156,7 @@ public class Movement : MonoBehaviour
         {
             _animation.SetBool("IsRunning", false);
         }
-        rb.linearVelocity = new Vector2(move * 5f, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(move * 8f, rb.linearVelocity.y);
     }
 
     public void Crouch()
