@@ -208,7 +208,6 @@ public class Movement : MonoBehaviour
             timeratk = 0;
             waffe1.SetActive(true);
             timeratkcool = 0;
-            
         }
         
     }

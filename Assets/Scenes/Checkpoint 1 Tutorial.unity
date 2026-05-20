@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &185472961
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -306,10 +306,10 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 1
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.45312214, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -319,7 +319,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9062448, y: 3}
+  m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
 --- !u!212 &185472963
 SpriteRenderer:
@@ -388,8 +388,8 @@ Transform:
   m_GameObject: {fileID: 185472960}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.71228385, w: 0.70189154}
-  m_LocalPosition: {x: 0.97, y: 0.32999995, z: 0}
-  m_LocalScale: {x: 0.46849993, y: 0.6512, z: 1}
+  m_LocalPosition: {x: 1.03, y: 0.28, z: 0}
+  m_LocalScale: {x: 2, y: 0.74074, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1667674367}
@@ -1436,8 +1436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7316f503217e40d4cb6a169bac02a5bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleEnemy
-  player: {fileID: 1193204050}
-  enemy: {fileID: 0}
+  hp: 5
+  enemy: {fileID: 1061573257}
+  player: {fileID: 1193204051}
 --- !u!1 &1120575971
 GameObject:
   m_ObjectHideFlags: 0
