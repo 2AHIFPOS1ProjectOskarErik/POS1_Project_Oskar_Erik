@@ -7,6 +7,7 @@ using JetBrains.Annotations;
 using System.Threading;
 using System;
 using Unity.VisualScripting;
+using System.Collections.Generic;
 
 public class Movement : MonoBehaviour
 {
@@ -20,19 +21,40 @@ public class Movement : MonoBehaviour
     public bool canmove = true;
     bool dialogfin = false;
     public GameObject waffe1;
+    public GameObject player;
     SpriteRenderer sr;
     public double hp = 5;
     float timerdmg;
     float timeratkcool;
     float timeratk;
+    List<Vector2>  Übergänge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
+    public static Movement instance;
     private float oldy;
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
     [SerializeField] private Animator _animation_jump;
     //ende tutorialvideo code:
 
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     void Start()
     {
+        DontDestroyOnLoad(player); // von ChatGPT
+        Übergänge = new List<Vector2>();
+        Übergänge.Add(new Vector2(7.5f, 1.8f));
+        Übergänge.Add(new Vector2(-96.6f, 11.3f));
+        Übergänge.Add(new Vector2(-30.1f, 1.9f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -130,7 +152,16 @@ public class Movement : MonoBehaviour
             dialogfin = false;
         }
 
-
+        if (collision.gameObject.CompareTag("Übergang TutSchloss"))
+        {
+            SceneManager.LoadScene("Schloss");
+            transform.position = Übergänge[0];
+        }
+        if (collision.gameObject.CompareTag("Übergang SchlossTut"))
+        {
+            SceneManager.LoadScene("Tutorial");
+            transform.position = Übergänge[1];
+        }
 
     }
 
@@ -156,7 +187,7 @@ public class Movement : MonoBehaviour
         {
             _animation.SetBool("IsRunning", false);
         }
-        rb.linearVelocity = new Vector2(move * 5f, rb.linearVelocity.y);
+        rb.linearVelocity = new Vector2(move * 8f, rb.linearVelocity.y);
     }
 
     public void Crouch()

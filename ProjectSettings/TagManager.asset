@@ -9,6 +9,9 @@ TagManager:
   - NPC John
   - Weapon 1
   - Simple Enemy
+  - "\xDCbergang TutSchloss"
+  - "\xDCbergang TutWald"
+  - "\xDCbergang SchlossTut"
   layers:
   - Default
   - TransparentFX
