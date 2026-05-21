@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
     float timerdmg;
     float timeratkcool;
     float timeratk;
-    List<Vector2>  ‹berg‰nge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
+    List<Vector2>  √úberg√§nge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
     public static Movement instance;
     private float oldy;
     //start tutorialvideo code:
@@ -51,10 +51,10 @@ public class Movement : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(player); // von ChatGPT
-        ‹berg‰nge = new List<Vector2>();
-        ‹berg‰nge.Add(new Vector2(7.5f, 1.8f));
-        ‹berg‰nge.Add(new Vector2(-96.6f, 11.3f));
-        ‹berg‰nge.Add(new Vector2(-30.1f, 1.9f));
+        √úberg√§nge = new List<Vector2>();
+        √úberg√§nge.Add(new Vector2(7.5f, 1.8f));
+        √úberg√§nge.Add(new Vector2(-96.6f, 11.3f));
+        √úberg√§nge.Add(new Vector2(-30.1f, 1.9f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -152,15 +152,15 @@ public class Movement : MonoBehaviour
             dialogfin = false;
         }
 
-        if (collision.gameObject.CompareTag("‹bergang TutSchloss"))
+        if (collision.gameObject.CompareTag("√úbergang TutSchloss"))
         {
             SceneManager.LoadScene("Schloss");
-            transform.position = ‹berg‰nge[0];
+            transform.position = √úberg√§nge[0];
         }
-        if (collision.gameObject.CompareTag("‹bergang SchlossTut"))
+        if (collision.gameObject.CompareTag("√úbergang SchlossTut"))
         {
             SceneManager.LoadScene("Tutorial");
-            transform.position = ‹berg‰nge[1];
+            transform.position = √úberg√§nge[1];
         }
 
     }

@@ -5,7 +5,7 @@ public class Startmenu : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void PlayGame()
     {
-        SceneManager.LoadScene("Checkpoint 1 Tutorial");
+        SceneManager.LoadScene("Tutorial");
     }
     public void QuitGame()
     {
