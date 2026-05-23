@@ -32,7 +32,8 @@ public class Movement : MonoBehaviour
     private float oldy;
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
-    [SerializeField] private Animator _animation_jump;
+    private Animator _animation_jump;
+    Animator animator;
     //ende tutorialvideo code:
 
     private void Awake()
@@ -61,6 +62,7 @@ public class Movement : MonoBehaviour
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
+        _animation_jump = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -209,9 +211,14 @@ public class Movement : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.isPressed && canjump == true && canmove == true)
         {
+            _animation_jump.SetBool("IsJumping", true);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
             canjump = false;
 
+        }
+        if (canjump == true)
+        {
+            _animation_jump.SetBool("IsJumping", false);
         }
     }
 
@@ -229,6 +236,7 @@ public class Movement : MonoBehaviour
 
     public void Die()
     {
+        player.SetActive(false);
         SceneManager.LoadScene("Deathscreen");
     }
 
