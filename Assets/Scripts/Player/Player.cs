@@ -24,6 +24,7 @@ public class Movement : MonoBehaviour
     public GameObject player;
     SpriteRenderer sr;
     public double hp = 5;
+    public HPAnzeige HPAnzeige;
     float timerdmg;
     float timeratkcool;
     float timeratk;
@@ -226,7 +227,8 @@ public class Movement : MonoBehaviour
     {
         if (timerdmg >= 1f)
         {
-            hp -= 0.5;
+            HPAnzeige.UpdateHP();
+            hp -= 1;
             timerdmg = 0f;
         }
 
