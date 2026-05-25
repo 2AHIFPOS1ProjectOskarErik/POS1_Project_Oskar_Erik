@@ -6,12 +6,11 @@ TagManager:
   tags:
   - Wall
   - Floor
-  - NPC John
   - Weapon 1
-  - Simple Enemy
-  - "\xDCbergang TutSchloss"
-  - "\xDCbergang TutWald"
   - "\xDCbergang SchlossTut"
+  - Brunnen
+  - Shop
+  - Thron
   layers:
   - Default
   - TransparentFX
