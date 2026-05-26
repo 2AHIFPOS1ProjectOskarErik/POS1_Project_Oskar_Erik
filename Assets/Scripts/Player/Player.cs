@@ -57,6 +57,7 @@ public class Movement : MonoBehaviour
         Übergänge.Add(new Vector2(7.5f, 1.8f));
         Übergänge.Add(new Vector2(-96.6f, 11.3f));
         Übergänge.Add(new Vector2(-30.1f, 1.9f));
+        Übergänge.Add(new Vector2(0f, 0f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -141,6 +142,12 @@ public class Movement : MonoBehaviour
             TakeDamage();
         }
 
+        if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
+        {
+            SceneManager.LoadScene("Dungeon");
+            transform.position = Übergänge[3];
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -160,12 +167,19 @@ public class Movement : MonoBehaviour
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[0];
         }
+
+
         if (collision.gameObject.CompareTag("Übergang SchlossTut"))
         {
             SceneManager.LoadScene("Tutorial");
             transform.position = Übergänge[1];
         }
 
+        if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
+        {
+            .LoadScene("Dungeon");
+            transform.position = Übergänge[3];
+        }
     }
 
 
