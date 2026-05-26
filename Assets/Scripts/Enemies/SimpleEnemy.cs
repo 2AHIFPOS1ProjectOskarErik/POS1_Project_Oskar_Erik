@@ -11,6 +11,7 @@ public class SimpleEnemy : MonoBehaviour
     public GameObject enemy;
     public Movement player;
     
+    public int moneyReward = 10;
     void Start()
     {
         direction = 1f;
@@ -28,8 +29,9 @@ public class SimpleEnemy : MonoBehaviour
         timer += Time.deltaTime;
         if (hp <= 0)
         {
-
             enemy.SetActive(false);
+            Geld_anzeige.Instance.AddMoney(10);
+
         }
     }
 
