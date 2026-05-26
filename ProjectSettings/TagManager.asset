@@ -11,6 +11,11 @@ TagManager:
   - Brunnen
   - Shop
   - Thron
+  - Simple Enemy
+  - "\xDCbergang TutSchloss"
+  - "\xDCbergang TutWald"
+  - NPC John
+  - Seil
   layers:
   - Default
   - TransparentFX

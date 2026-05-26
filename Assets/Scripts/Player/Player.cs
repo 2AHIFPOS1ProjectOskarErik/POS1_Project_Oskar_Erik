@@ -31,6 +31,7 @@ public class Movement : MonoBehaviour
     List<Vector2>  Übergänge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
     public static Movement instance;
     private float oldy;
+    public CameraFollow camerafollow;
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
     private Animator _animation_jump;
@@ -52,12 +53,14 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
+
         DontDestroyOnLoad(player); // von ChatGPT
         Übergänge = new List<Vector2>();
         Übergänge.Add(new Vector2(7.5f, 1.8f));
         Übergänge.Add(new Vector2(-96.6f, 11.3f));
         Übergänge.Add(new Vector2(-30.1f, 1.9f));
-        Übergänge.Add(new Vector2(0f, 0f));
+        Übergänge.Add(new Vector2(-0.61f, 19.91f));
+        Übergänge.Add(new Vector2(-18.18f, 1f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -65,6 +68,7 @@ public class Movement : MonoBehaviour
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
         _animation_jump = GetComponent<Animator>();
+        camera.orthographicSize = 6f;
     }
 
     // Update is called once per frame
@@ -124,15 +128,15 @@ public class Movement : MonoBehaviour
             if (Keyboard.current.eKey.isPressed && dialogfin == false)
             {
                 canmove = false;
-                camera.orthographicSize = 3f;
-                camera.transform.position = new Vector3(3f, -2f, -10f);
+                camera.orthographicSize = 4f;
+                camerafollow.offset = new Vector3(1f, 2f, -10f);
                 dialogfin = dialog1.RunDialog();
             }
             if (dialogfin == true)
             {
                 canmove = true;
-                camera.orthographicSize = 5f;
-                camera.transform.position = new Vector3(0f, 0f, -10f);
+                camera.orthographicSize = 6f;
+                camerafollow.offset = new Vector3(0f, 4f, -10f);
             }
 
         }
@@ -177,8 +181,13 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
-            .LoadScene("Dungeon");
+            SceneManager.LoadScene("Dungeon");
             transform.position = Übergänge[3];
+        }
+        if (collision.gameObject.CompareTag("Seil"))
+        {
+            SceneManager.LoadScene("Schloss");
+            transform.position = Übergänge[4];
         }
     }
 
