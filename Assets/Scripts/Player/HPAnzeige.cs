@@ -14,11 +14,25 @@ public class HPAnzeige : MonoBehaviour
     public Sprite HerzEmpty;
     private List<UnityEngine.UI.Image> Herzen = new List<UnityEngine.UI.Image>();
     public double maxHP = 5;
+    public static HPAnzeige instance;
     public double currentHP = 5;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
-        
+        DontDestroyOnLoad(HerzPrefab);
         for (int i = 0; i < maxHP; i++)
         {
             GameObject Herz = Instantiate(HerzPrefab, Herzparent);
