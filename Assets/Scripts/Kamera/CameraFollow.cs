@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     public Transform player;
     public static CameraFollow instance;
     Vector3 vel = Vector3.zero;
-    [SerializeField] Vector3 offset;
+    [SerializeField] public Vector3 offset;
     [SerializeField] float damping;
     public GameObject camera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
