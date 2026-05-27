@@ -59,8 +59,11 @@ public class Movement : MonoBehaviour
         Übergänge.Add(new Vector2(7.5f, 1.8f));
         Übergänge.Add(new Vector2(-96.6f, 11.3f));
         Übergänge.Add(new Vector2(-30.1f, 1.9f));
+        Übergänge.Add(new Vector2(0f, 0f));
+        //------------------------------------
         Übergänge.Add(new Vector2(-0.61f, 19.91f));
         Übergänge.Add(new Vector2(-18.18f, 1f));
+        //------------------------------------
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -149,6 +152,11 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
             SceneManager.LoadScene("Dungeon");
+            transform.position = Übergänge[3];
+        }
+        if (collision.gameObject.CompareTag("Shop") && Keyboard.current.eKey.isPressed)
+        {
+            SceneManager.LoadScene("Shop");
             transform.position = Übergänge[3];
         }
 
