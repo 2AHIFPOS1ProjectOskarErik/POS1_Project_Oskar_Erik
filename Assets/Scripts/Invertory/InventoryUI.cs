@@ -1,13 +1,22 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class InventoryUI : MonoBehaviour
 {
-    //prompt: wie macht man ein Inventar in Unity
-    //anfang ChatPT code
+    public static InventoryUI Instance;
+
     public GameObject inventoryPanel;
 
     bool isOpen = false;
+
+    // INVENTAR LISTE
+    public List<string> items = new List<string>();
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -23,5 +32,12 @@ public class InventoryUI : MonoBehaviour
             inventoryPanel.SetActive(isOpen);
         }
     }
-    //ende ChatPT code
+
+    // ITEM HINZUFÜGEN
+    public void AddItem(string itemName)
+    {
+        items.Add(itemName);
+
+        Debug.Log(itemName + " wurde ins Inventar gelegt!");
+    }
 }

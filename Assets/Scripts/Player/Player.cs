@@ -28,7 +28,7 @@ public class Movement : MonoBehaviour
     float timerdmg;
     float timeratkcool;
     float timeratk;
-    List<Vector2>  Übergänge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
+    public List<Vector2>  Übergänge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
     public static Movement instance;
     private float oldy;
     public CameraFollow camerafollow;
@@ -60,6 +60,7 @@ public class Movement : MonoBehaviour
         Übergänge.Add(new Vector2(-96.6f, 11.3f));
         Übergänge.Add(new Vector2(-30.1f, 1.9f));
         Übergänge.Add(new Vector2(0f, 0f));
+        Übergänge.Add(new Vector2(-54.88f, -1.7f));
         //------------------------------------
         Übergänge.Add(new Vector2(-0.61f, 19.91f));
         Übergänge.Add(new Vector2(-18.18f, 1f));
