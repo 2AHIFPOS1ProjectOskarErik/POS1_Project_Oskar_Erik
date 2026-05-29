@@ -16,6 +16,8 @@ TagManager:
   - "\xDCbergang TutWald"
   - NPC John
   - Seil
+  - Line of Sight
+  - EnemyFollow
   layers:
   - Default
   - TransparentFX

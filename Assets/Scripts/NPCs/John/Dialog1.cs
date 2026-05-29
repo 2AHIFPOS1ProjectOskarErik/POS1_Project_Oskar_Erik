@@ -10,9 +10,7 @@ public class Dialog1 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
         text.text = "Hallo!";
-
     }
 
     // Update is called once per frame

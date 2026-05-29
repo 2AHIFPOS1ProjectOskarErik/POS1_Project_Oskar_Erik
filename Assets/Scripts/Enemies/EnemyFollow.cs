@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class SimpleEnemy : MonoBehaviour
+public class EnemyFollow : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     Rigidbody2D rb;
@@ -10,9 +9,11 @@ public class SimpleEnemy : MonoBehaviour
     float timer = 0f;
     public double hp = 5;
     public GameObject enemy;
-    public SimpleEnemy simple;
     public GameObject player;
-    public Movement playercode;
+    private Movement playercode;
+
+    public int moneyReward = 10;
+    
 
     private void Awake()
     {
@@ -25,23 +26,23 @@ public class SimpleEnemy : MonoBehaviour
         player = GameObject.Find("Player");
         playercode = player.GetComponent<Movement>();
     }
-
+   
 
     private void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    public int moneyReward = 10;
     void Start()
     {
-        direction = 1f;
+        direction = 0f;
         rb = GetComponent<Rigidbody2D>();
         collider2D = GetComponent<BoxCollider2D>();
         rb.freezeRotation = true;
-        
-        
+
+
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -60,35 +61,37 @@ public class SimpleEnemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
-            if (direction == 1f)
+            if (direction > 0f)
             {
-                direction = -1f;
+                direction = direction *(-1);
             }
-            else if (direction == -1f)
+            else if (direction < 0f)
             {
-                direction = 1f;
+                direction = direction * (-1);
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
         if (other.CompareTag("Weapon 1"))
         {
             hp -= playercode.dmg;
-            if (player.transform.position.x > enemy.transform.position.x)
-            {
-                direction = -1;
-            }
-            else
-            {
-                direction = 1;
-            }
-            
-
+            rb.linearVelocity = new Vector2(8f, 5f);
         }
     }
 
+    public void Follow()
+    {
+        if (playercode.transform.position.x < transform.position.x)
+        {
+            direction = -1f;
+
+        }
+        if (playercode.transform.position.x > transform.position.x)
+        {
+            direction = 1f;
+        }
+    }
 }
-
-
