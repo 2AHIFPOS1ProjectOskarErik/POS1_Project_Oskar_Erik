@@ -9,7 +9,7 @@ public class Geld_anzeige : MonoBehaviour
 
     public TextMeshProUGUI moneyText;
 
-    private int money;
+    public int money;
 
     void Awake()
     {
@@ -38,7 +38,7 @@ public class Geld_anzeige : MonoBehaviour
 
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         moneyText.text = money.ToString();
     }
