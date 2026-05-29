@@ -756,7 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialog1
-  text: {fileID: 0}
+  text: {fileID: 1468571222}
 --- !u!1 &189683315
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,6 +3361,7 @@ MonoBehaviour:
   canmove: 1
   waffe1: {fileID: 185472960}
   player: {fileID: 1193204050}
+  enemyfollow: {fileID: 0}
   hp: 5
   HPAnzeige: {fileID: 1873819702}
   camerafollow: {fileID: 519420033}
@@ -4343,7 +4344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialog1
-  text: {fileID: 0}
+  text: {fileID: 1468571222}
 --- !u!95 &1766129807
 Animator:
   serializedVersion: 7

@@ -1,13 +1,14 @@
+using JetBrains.Annotations;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
-using TMPro;
 using UnityEngine.UI;
-using JetBrains.Annotations;
-using System.Threading;
-using System;
-using Unity.VisualScripting;
-using System.Collections.Generic;
+using static UnityEngine.GraphicsBuffer;
 
 public class Movement : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class Movement : MonoBehaviour
     bool dialogfin = false;
     public GameObject waffe1;
     public GameObject player;
+    GameObject enemyfollow;
     SpriteRenderer sr;
     public double hp = 5;
     public HPAnzeige HPAnzeige;
@@ -49,7 +51,15 @@ public class Movement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
+    //start chatgpt, prompt: wenn ich ein dont destroy on load habe und die scene zu einer anderen wechsel wo ein gameobject existiert was es in der ersten scene nicht gab welches ich im code benötige, wie kann ich das übergeben?
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        enemyfollow = GameObject.Find("Enemy Follow");
+    }
+    // Ende Chatgpt
+
 
     void Start()
     {
@@ -145,9 +155,14 @@ public class Movement : MonoBehaviour
 
         }
 
-        if (collision.gameObject.CompareTag("Simple Enemy"))
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow"))
         {
             TakeDamage();
+        }
+        if (collision.gameObject.CompareTag("Line of Sight"))
+        {
+            EnemyFollow enemyfollowscript = enemyfollow.GetComponent<EnemyFollow>();
+            enemyfollowscript.Follow();
         }
 
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
@@ -174,6 +189,12 @@ public class Movement : MonoBehaviour
             dialog1.text.text = "Druecke \"E\" um mit mir zu Interagieren!";
             dialogfin = false;
         }
+
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow"))
+        {
+            TakeDamage();
+        }
+
 
         if (collision.gameObject.CompareTag("Übergang TutSchloss"))
         {
