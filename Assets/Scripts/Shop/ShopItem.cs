@@ -1,25 +1,63 @@
+using TMPro;
 using UnityEngine;
 
 public class ShopItem : MonoBehaviour
 {
-    public string itemName;
-    public int price;
+    public int health;
+    public int strength;
 
-    public void BuyItem()
+    public TMP_Text Coin_Text;
+
+    void Start()
     {
-        if (Geld_anzeige.Instance.money >= price)
+        health = PlayerPrefs.GetInt("Health", 0);
+        strength = PlayerPrefs.GetInt("Strength", 0);
+
+        UpdateCoinText();
+    }
+
+    void UpdateCoinText()
+    {
+        Coin_Text.text = Geld_anzeige.Instance.money.ToString();
+    }
+
+    public void Buy_strength()
+    {
+        if (Geld_anzeige.Instance.money >= 40)
         {
-            Geld_anzeige.Instance.money -= price;
+            Geld_anzeige.Instance.RemoveMoney(40);
 
-            Geld_anzeige.Instance.UpdateUI();
+            strength++;
 
-            InventoryUI.Instance.AddItem(itemName);
+            PlayerPrefs.SetInt("Strength", strength);
 
-            Debug.Log(itemName + " gekauft!");
+            UpdateCoinText();
+
+            Debug.Log($"Strength purchased. Now you have {strength} strength potions.");
         }
         else
         {
-            Debug.Log("Nicht genug Geld!");
+            Debug.Log("Not enough coins.");
+        }
+    }
+
+    public void Buy_Health()
+    {
+        if (Geld_anzeige.Instance.money >= 20)
+        {
+            Geld_anzeige.Instance.RemoveMoney(20);
+
+            health++;
+
+            PlayerPrefs.SetInt("Health", health);
+
+            UpdateCoinText();
+
+            Debug.Log($"Health purchased. Now you have {health} health potions.");
+        }
+        else
+        {
+            Debug.Log("Not enough coins.");
         }
     }
 }
