@@ -3,26 +3,24 @@ using TMPro;
 
 public class Geld_anzeige : MonoBehaviour
 {
-    // anfang ChatGPT code
     public static Geld_anzeige Instance;
-    // ende ChatGPT code
 
     public TextMeshProUGUI moneyText;
-
     public int money;
 
     void Awake()
     {
-        // anfang ChatGPT code
         if (Instance == null)
         {
             Instance = this;
+
+            // Gespeichertes Geld laden
+            money = PlayerPrefs.GetInt("coin", 2000);
         }
         else
         {
             Destroy(gameObject);
         }
-        // ende ChatGPT code
     }
 
     void Start()
@@ -34,8 +32,18 @@ public class Geld_anzeige : MonoBehaviour
     {
         money += amount;
 
-        UpdateUI();
+        PlayerPrefs.SetInt("coin", money);
 
+        UpdateUI();
+    }
+
+    public void RemoveMoney(int amount)
+    {
+        money -= amount;
+
+        PlayerPrefs.SetInt("coin", money);
+
+        UpdateUI();
     }
 
     public void UpdateUI()
