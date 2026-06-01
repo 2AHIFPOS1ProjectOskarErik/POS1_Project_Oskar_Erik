@@ -23,7 +23,10 @@ public class Movement : MonoBehaviour
     bool dialogfin = false;
     public GameObject waffe1;
     public GameObject player;
+    private GameObject GateBoss;
+    private GameObject GateBoss2;
     GameObject enemyfollow;
+    private GameObject MiniBoss;
     SpriteRenderer sr;
     public double hp = 5;
     public HPAnzeige HPAnzeige;
@@ -39,6 +42,8 @@ public class Movement : MonoBehaviour
     private Animator _animation_jump;
     Animator animator;
     //ende tutorialvideo code:
+
+
 
     private void Awake()
     {
@@ -57,8 +62,13 @@ public class Movement : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         enemyfollow = GameObject.Find("Enemy Follow");
+        // Ende Chatgpt
+        GateBoss = GameObject.Find("GateBoss");
+        GateBoss2 = GameObject.Find("GateBoss 2");
+        MiniBoss = GameObject.Find("Mini Boss");
+
     }
-    // Ende Chatgpt
+
 
 
     void Start()
@@ -176,6 +186,14 @@ public class Movement : MonoBehaviour
             transform.position = Übergänge[3];
         }
 
+        if (collision.gameObject.CompareTag("MiniBossFight"))
+        {
+            GateBoss.GetComponent<Collider2D>().enabled = true;
+            GateBoss.GetComponent<SpriteRenderer>().enabled = true;
+            GateBoss2.GetComponent<Collider2D>().enabled = true;
+            GateBoss2.GetComponent<SpriteRenderer>().enabled = true;
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -218,6 +236,12 @@ public class Movement : MonoBehaviour
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
+        }
+
+        if (collision.gameObject.CompareTag("MiniBossFight"))
+        {
+            MiniBoss.GetComponent<Collider2D>().enabled = true;
+            MiniBoss.GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 

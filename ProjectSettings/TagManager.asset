@@ -18,6 +18,8 @@ TagManager:
   - Seil
   - Line of Sight
   - EnemyFollow
+  - Mini Boss
+  - MiniBossFight
   layers:
   - Default
   - TransparentFX

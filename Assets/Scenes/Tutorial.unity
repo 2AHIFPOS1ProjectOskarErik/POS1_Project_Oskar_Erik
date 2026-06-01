@@ -283,7 +283,7 @@ Transform:
   m_GameObject: {fileID: 42213508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -70.78, y: 31.37, z: 0}
+  m_LocalPosition: {x: -70.5, y: 28, z: 0}
   m_LocalScale: {x: 2.1980274, y: 19.577963, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Geld_anzeige
   moneyText: {fileID: 1883685649}
+  money: 0
 --- !u!114 &65187698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3109,7 +3110,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleEnemy
   hp: 5
   enemy: {fileID: 1061573257}
-  player: {fileID: 1193204051}
+  simple: {fileID: 0}
+  player: {fileID: 0}
+  playercode: {fileID: 0}
   moneyReward: 10
 --- !u!1 &1106997922
 GameObject:
@@ -3361,9 +3364,9 @@ MonoBehaviour:
   canmove: 1
   waffe1: {fileID: 185472960}
   player: {fileID: 1193204050}
-  enemyfollow: {fileID: 0}
   hp: 5
   HPAnzeige: {fileID: 1873819702}
+  "\xDCberg\xE4nge": []
   camerafollow: {fileID: 519420033}
   _animation: {fileID: 1193204057}
 --- !u!61 &1193204052
@@ -3839,6 +3842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
   inventoryPanel: {fileID: 1106997922}
+  items: []
 --- !u!4 &1603784793
 Transform:
   m_ObjectHideFlags: 0
