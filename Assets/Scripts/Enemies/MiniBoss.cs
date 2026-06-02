@@ -1,3 +1,5 @@
+using System;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +15,13 @@ public class MiniBoss : MonoBehaviour
     public GameObject miniBoss;
     public GameObject player;
     private Movement playercode;
+    private int Attacks;
+    private float timerstop;
+    private float timerMove;
+    private Timer timerJump;
+    public bool bossstart = false;
+    private float pause = 2.5f;
+    public GameObject bossgate;
 
     public int moneyReward = 10;
 
@@ -27,6 +36,7 @@ public class MiniBoss : MonoBehaviour
     {
         player = GameObject.Find("Player");
         playercode = player.GetComponent<Movement>();
+        bossgate = GameObject.Find("GateBoss");
     }
 
 
@@ -39,6 +49,8 @@ public class MiniBoss : MonoBehaviour
     {
         direction = 0f;
         rb = GetComponent<Rigidbody2D>();
+        rb.freezeRotation = true;
+        
         collider2D = GetComponent<BoxCollider2D>();
     }
 
@@ -46,13 +58,94 @@ public class MiniBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (timerMove > 1.5f)
+        {
+            direction = 0f;
+            timerMove = 0f;
+            timerstop = 0f;
+            Attacks = 0;
+        }
+
         rb.linearVelocity = new Vector2(direction * 5f, rb.linearVelocityY);
         timer += Time.deltaTime;
+
         if (hp <= 0)
         {
             miniBoss.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
 
+        }
+
+        if (bossstart == true)
+        {
+            timerstop += Time.deltaTime;
+            if (timerstop >= pause)
+            {
+                Attacks = GetRandatk();
+                if (Attacks == 1)
+                {
+                    
+                    timerMove += Time.deltaTime;
+                    if (playercode.transform.position.x < transform.position.x)
+                    {
+                        direction = -1f;
+
+                    }
+                    if (playercode.transform.position.x > transform.position.x)
+                    {
+                        direction = 1f;
+                    }
+                    
+                }
+                else if (Attacks == 2)
+                {
+                    timerMove += Time.deltaTime;
+                    if (playercode.transform.position.x < transform.position.x)
+                    {
+                        direction = 1f;
+
+                    }
+                    if (playercode.transform.position.x > transform.position.x)
+                    {
+                        direction = -1f;
+                    }
+                    
+                    
+                }
+                else if (Attacks == 3)
+                {
+                    direction = 0f;
+                }
+
+                else if (Attacks == 4)
+                {
+                    if (playercode.transform.position.x < transform.position.x)
+                    {
+                        direction = -1f;
+
+                    }
+                    if (playercode.transform.position.x > transform.position.x)
+                    {
+                        direction = 1f;
+                    }
+                    Jump();
+                }
+                else if (Attacks == 5)
+                {
+                    if (playercode.transform.position.x < transform.position.x)
+                    {
+                        direction = -1f;
+
+                    }
+                    if (playercode.transform.position.x > transform.position.x)
+                    {
+                        direction = 1f;
+                    }
+                    Jump();
+                }
+
+                    timerstop = 0f;
+            }
         }
     }
 
@@ -79,6 +172,18 @@ public class MiniBoss : MonoBehaviour
             hp -= playercode.dmg;
             rb.linearVelocity = new Vector2(8f, 5f);
         }
+    }
+
+    private int GetRandatk()
+    {
+        
+        System.Random rand = new System.Random();
+        return rand.Next(1,5);
+    }
+
+    private void Jump()
+    {
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x * direction, 10f);
     }
 
 }

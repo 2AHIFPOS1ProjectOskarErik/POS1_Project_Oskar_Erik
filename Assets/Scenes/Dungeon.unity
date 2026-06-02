@@ -1676,7 +1676,7 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1799,6 +1799,8 @@ MonoBehaviour:
   hp: 30
   miniBoss: {fileID: 478311143}
   player: {fileID: 1144606314}
+  bossstart: 0
+  bossgate: {fileID: 0}
   moneyReward: 10
 --- !u!1 &506402262
 GameObject:
