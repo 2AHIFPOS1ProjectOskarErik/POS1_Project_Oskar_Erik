@@ -22,6 +22,9 @@ public class MiniBoss : MonoBehaviour
     public bool bossstart = false;
     private float pause = 2.5f;
     public GameObject bossgate;
+    public MiniBossHP hpcode;
+    public GameObject hpcanvas;
+    private bool hpactive = false;
 
     public int moneyReward = 10;
 
@@ -58,6 +61,8 @@ public class MiniBoss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (timerMove > 1.5f)
         {
             direction = 0f;
@@ -71,6 +76,7 @@ public class MiniBoss : MonoBehaviour
 
         if (hp <= 0)
         {
+            hpcanvas.SetActive(false);
             miniBoss.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
 
@@ -78,6 +84,11 @@ public class MiniBoss : MonoBehaviour
 
         if (bossstart == true)
         {
+            if (hpactive == false)
+            {
+                hpcanvas.SetActive(true);
+            }
+
             timerstop += Time.deltaTime;
             if (timerstop >= pause)
             {
@@ -171,6 +182,7 @@ public class MiniBoss : MonoBehaviour
         {
             hp -= playercode.dmg;
             rb.linearVelocity = new Vector2(8f, 5f);
+            hpcode.UpdateHP();
         }
     }
 
