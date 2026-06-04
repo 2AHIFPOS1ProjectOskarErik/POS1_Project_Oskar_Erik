@@ -40,6 +40,7 @@ public class Movement : MonoBehaviour
     Animator animator;
     //ende tutorialvideo code:
 
+
     private void Awake()
     {
         if (instance == null)
@@ -155,7 +156,7 @@ public class Movement : MonoBehaviour
 
         }
 
-        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow"))
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Falle"))
         {
             TakeDamage();
         }
