@@ -23,7 +23,11 @@ public class Movement : MonoBehaviour
     bool dialogfin = false;
     public GameObject waffe1;
     public GameObject player;
+    private GameObject GateBoss;
+    private GameObject GateBoss2;
     GameObject enemyfollow;
+    private GameObject MiniBoss;
+    private MiniBoss miniBossCode;
     SpriteRenderer sr;
     public double hp = 5;
     public HPAnzeige HPAnzeige;
@@ -39,6 +43,7 @@ public class Movement : MonoBehaviour
     private Animator _animation_jump;
     Animator animator;
     //ende tutorialvideo code:
+
 
 
     private void Awake()
@@ -58,8 +63,14 @@ public class Movement : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         enemyfollow = GameObject.Find("Enemy Follow");
+        // Ende Chatgpt
+        GateBoss = GameObject.Find("GateBoss");
+        GateBoss2 = GameObject.Find("GateBoss 2");
+        MiniBoss = GameObject.Find("Mini Boss");
+        
+
     }
-    // Ende Chatgpt
+
 
 
     void Start()
@@ -79,6 +90,7 @@ public class Movement : MonoBehaviour
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        miniBossCode = MiniBoss.GetComponent<MiniBoss>();
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
@@ -177,6 +189,15 @@ public class Movement : MonoBehaviour
             transform.position = Übergänge[3];
         }
 
+        if (collision.gameObject.CompareTag("MiniBossFight"))
+        {
+            GateBoss.GetComponent<Collider2D>().enabled = true;
+            GateBoss.GetComponent<SpriteRenderer>().enabled = true;
+            GateBoss2.GetComponent<Collider2D>().enabled = true;
+            GateBoss2.GetComponent<SpriteRenderer>().enabled = true;
+            miniBossCode.bossstart = true;  
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -191,7 +212,7 @@ public class Movement : MonoBehaviour
             dialogfin = false;
         }
 
-        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow"))
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss"))
         {
             TakeDamage();
         }
@@ -219,6 +240,13 @@ public class Movement : MonoBehaviour
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
+        }
+
+        if (collision.gameObject.CompareTag("MiniBossFight"))
+        {
+            canjump = true;
+            MiniBoss.GetComponent<Collider2D>().enabled = true;
+            MiniBoss.GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 
