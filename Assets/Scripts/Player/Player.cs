@@ -9,7 +9,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
-
+using System.Collections;
 public class Movement : MonoBehaviour
 {
     public double dmg = 2;
@@ -38,6 +38,8 @@ public class Movement : MonoBehaviour
     public static Movement instance;
     private float oldy;
     public CameraFollow camerafollow;
+    bool gefangen = false;
+    bool falleBenutzt = false;
     //start tutorialvideo code:
     [SerializeField] private Animator _animation;
     private Animator _animation_jump;
@@ -103,7 +105,8 @@ public class Movement : MonoBehaviour
     void Update()
     {
 
-
+        if (gefangen)
+            return;
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Attack();
@@ -172,6 +175,13 @@ public class Movement : MonoBehaviour
         {
             TakeDamage();
         }
+        if (collision.gameObject.CompareTag("baerfalle") && !falleBenutzt)
+        {
+            falleBenutzt = true;
+
+            TakeDamage();
+            StartCoroutine(Falle());
+        }
         if (collision.gameObject.CompareTag("Line of Sight"))
         {
             EnemyFollow enemyfollowscript = enemyfollow.GetComponent<EnemyFollow>();
@@ -198,6 +208,14 @@ public class Movement : MonoBehaviour
             miniBossCode.bossstart = true;  
         }
 
+    }
+    IEnumerator Falle()
+    {
+        gefangen = true;
+
+        yield return new WaitForSeconds(5);
+
+        gefangen = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
