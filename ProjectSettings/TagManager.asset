@@ -18,6 +18,8 @@ TagManager:
   - Seil
   - Line of Sight
   - EnemyFollow
+  - Falle
+  - baerfalle
   layers:
   - Default
   - TransparentFX
