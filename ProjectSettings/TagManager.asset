@@ -20,6 +20,8 @@ TagManager:
   - EnemyFollow
   - Falle
   - baerfalle
+  - Mini Boss
+  - MiniBossFight
   layers:
   - Default
   - TransparentFX
