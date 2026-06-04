@@ -30,17 +30,19 @@ public class Movement : MonoBehaviour
     private MiniBoss miniBossCode;
     SpriteRenderer sr;
     public double hp = 5;
+    public double maxHP = 5;
     public HPAnzeige HPAnzeige;
     float timerdmg;
     float timeratkcool;
     float timeratk;
     public List<Vector2>  Übergänge; // Idx 0 = Tutorial -> Schloss, Idx 1 = Schloss -> Tuturial, etc. 
+    public List<Vector2> Checkpoints;
+    public int current_Checkpoint = 0;
     public static Movement instance;
     private float oldy;
     public CameraFollow camerafollow;
     //start tutorialvideo code:
-    [SerializeField] private Animator _animation;
-    private Animator _animation_jump;
+    [SerializeField] private Animator _animation;    private Animator _animation_jump;
     Animator animator;
     //ende tutorialvideo code:
 
@@ -87,10 +89,22 @@ public class Movement : MonoBehaviour
         Übergänge.Add(new Vector2(-0.61f, 19.91f));
         Übergänge.Add(new Vector2(-18.18f, 1f));
         //------------------------------------
+        Checkpoints = new List<Vector2>();
+        
+        Checkpoints.Add(new Vector2(-15.12f, -1.76f));
+        Checkpoints.Add(new Vector2(-1.64f, -1.04f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        miniBossCode = MiniBoss.GetComponent<MiniBoss>();
+        try
+        {
+            miniBossCode = MiniBoss.GetComponent<MiniBoss>();
+        }
+        catch
+        {
+
+        }
+       
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
@@ -178,9 +192,16 @@ public class Movement : MonoBehaviour
             enemyfollowscript.Follow();
         }
 
+        if (collision.gameObject.CompareTag("Seil"))
+        {
+            SceneManager.LoadScene("Schloss");
+            transform.position = Übergänge[4];
+        }
+
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
             SceneManager.LoadScene("Dungeon");
+            current_Checkpoint = 1;
             transform.position = Übergänge[3];
         }
         if (collision.gameObject.CompareTag("Shop") && Keyboard.current.eKey.isPressed)
@@ -234,6 +255,7 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
             SceneManager.LoadScene("Dungeon");
+            current_Checkpoint = 1;
             transform.position = Übergänge[3];
         }
         if (collision.gameObject.CompareTag("Seil"))
@@ -309,8 +331,8 @@ public class Movement : MonoBehaviour
     {
         if (timerdmg >= 1f)
         {
-            HPAnzeige.UpdateHP();
             hp -= 1;
+            HPAnzeige.UpdateHP();
             timerdmg = 0f;
         }
 
@@ -320,8 +342,9 @@ public class Movement : MonoBehaviour
 
     public void Die()
     {
-        player.SetActive(false);
         SceneManager.LoadScene("Deathscreen");
+        hp = maxHP;
+        player.transform.position = Checkpoints[current_Checkpoint];
     }
 
     public void Attack()
