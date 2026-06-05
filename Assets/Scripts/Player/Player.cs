@@ -13,6 +13,7 @@ using System.Collections;
 public class Movement : MonoBehaviour
 {
     public double dmg = 2;
+    bool strengthActive = false;
     Camera camera;
     Rigidbody2D rb;
     BoxCollider2D collider2D;
@@ -121,6 +122,15 @@ public class Movement : MonoBehaviour
 
         if (gefangen)
             return;
+        if (Keyboard.current.rKey.wasPressedThisFrame)
+        {
+            UseHealthPotion();
+        }
+
+        if (Keyboard.current.tKey.wasPressedThisFrame)
+        {
+            UseStrengthPotion();
+        }
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Attack();
@@ -374,5 +384,58 @@ public class Movement : MonoBehaviour
             timeratkcool = 0;
         }
         
+    }
+    void UseHealthPotion()
+    {
+        int healthPotions = PlayerPrefs.GetInt("Health", 0);
+
+        if (healthPotions > 0)
+        {
+            healthPotions--;
+
+            PlayerPrefs.SetInt("Health", healthPotions);
+
+            hp += 2;
+
+            if (hp > maxHP)
+                hp = maxHP;
+
+            HPAnzeige.UpdateHP();
+
+            InventoryUI.Instance.UpdateTexts();
+
+            Debug.Log("Health Potion benutzt!");
+        }
+    }
+    void UseStrengthPotion()
+    {
+        int strengthPotions = PlayerPrefs.GetInt("Strength", 0);
+
+        if (strengthPotions > 0 && !strengthActive)
+        {
+            strengthPotions--;
+
+            PlayerPrefs.SetInt("Strength", strengthPotions);
+
+            dmg *= 2;
+
+            strengthActive = true;
+
+            InventoryUI.Instance.UpdateTexts();
+
+            StartCoroutine(RemoveStrengthBuff());
+
+            Debug.Log("Strength Potion benutzt!");
+        }
+    }
+    IEnumerator RemoveStrengthBuff()
+    {
+        yield return new WaitForSeconds(120f);
+
+        dmg /= 2;
+
+        strengthActive = false;
+
+        Debug.Log("Strength Buff beendet!");
     }
 }

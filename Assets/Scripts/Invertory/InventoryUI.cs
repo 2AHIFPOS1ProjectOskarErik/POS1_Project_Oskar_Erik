@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using TMPro;
 
 public class InventoryUI : MonoBehaviour
 {
@@ -8,10 +9,11 @@ public class InventoryUI : MonoBehaviour
 
     public GameObject inventoryPanel;
 
-    bool isOpen = false;
+    public TMP_Text healthText;
+    public TMP_Text strengthText;
+    public TMP_Text coinText;
 
-    // INVENTAR LISTE
-    public List<string> items = new List<string>();
+    bool isOpen = false;
 
     void Awake()
     {
@@ -21,6 +23,7 @@ public class InventoryUI : MonoBehaviour
     void Start()
     {
         inventoryPanel.SetActive(false);
+        UpdateTexts();
     }
 
     void Update()
@@ -28,16 +31,14 @@ public class InventoryUI : MonoBehaviour
         if (Keyboard.current.tabKey.wasPressedThisFrame)
         {
             isOpen = !isOpen;
-
             inventoryPanel.SetActive(isOpen);
         }
     }
 
-    // ITEM HINZUFÜGEN
-    public void AddItem(string itemName)
+    public void UpdateTexts()
     {
-        items.Add(itemName);
+        healthText.text = PlayerPrefs.GetInt("Health", 0).ToString();
+        strengthText.text = PlayerPrefs.GetInt("Strength", 0).ToString();
 
-        Debug.Log(itemName + " wurde ins Inventar gelegt!");
     }
 }
