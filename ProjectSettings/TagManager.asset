@@ -23,6 +23,8 @@ TagManager:
   - Mini Boss
   - MiniBossFight
   - Falle
+  - Boss
+  - Bossfight
   layers:
   - Default
   - TransparentFX

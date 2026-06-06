@@ -29,6 +29,8 @@ public class Movement : MonoBehaviour
     GameObject enemyfollow;
     private GameObject MiniBoss;
     private MiniBoss miniBossCode;
+    private GameObject boss;
+    private Boss bossCode;
     SpriteRenderer sr;
     public double hp = 5;
     public double maxHP = 5;
@@ -72,7 +74,7 @@ public class Movement : MonoBehaviour
         GateBoss = GameObject.Find("GateBoss");
         GateBoss2 = GameObject.Find("GateBoss 2");
         MiniBoss = GameObject.Find("Mini Boss");
-        
+        boss = GameObject.Find("Boss");
 
     }
 
@@ -103,10 +105,12 @@ public class Movement : MonoBehaviour
         {
             miniBossCode = MiniBoss.GetComponent<MiniBoss>();
         }
-        catch
+        catch { }
+        try 
         {
-
+            bossCode = boss.GetComponent<Boss>();
         }
+        catch { }
        
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
@@ -238,6 +242,15 @@ public class Movement : MonoBehaviour
             GateBoss2.GetComponent<SpriteRenderer>().enabled = true;
             miniBossCode.bossstart = true;  
         }
+        if (collision.gameObject.CompareTag("Bossfight"))
+        {
+            GateBoss.GetComponent<Collider2D>().enabled = true;
+            GateBoss.GetComponent<SpriteRenderer>().enabled = true;
+            GateBoss2.GetComponent<Collider2D>().enabled = true;
+            GateBoss2.GetComponent<SpriteRenderer>().enabled = true;
+            bossCode.bossstart = true;
+
+        }
 
     }
     IEnumerator Falle()
@@ -297,6 +310,15 @@ public class Movement : MonoBehaviour
             canjump = true;
             MiniBoss.GetComponent<Collider2D>().enabled = true;
             MiniBoss.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        if (collision.gameObject.CompareTag("Bossfight"))
+        {
+            GateBoss.GetComponent<Collider2D>().enabled = true;
+            GateBoss.GetComponent<SpriteRenderer>().enabled = true;
+            GateBoss2.GetComponent<Collider2D>().enabled = true;
+            GateBoss2.GetComponent<SpriteRenderer>().enabled = true;
+            bossCode.bossstart = true;
+
         }
     }
 
