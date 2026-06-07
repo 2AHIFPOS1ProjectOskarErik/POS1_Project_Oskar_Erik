@@ -33,10 +33,11 @@ public class Boss : MonoBehaviour
     public GameObject Atk1;
     public GameObject Atk2Shockwave;
     public GameObject Schockwave;
+    public GameObject Atk3Schockwave;
     public int moneyReward = 10;
     private float schockwaveamt = 0;
     private bool schockwave = false;
-
+    public bool isAlive = true;
 
     private void Awake()
     {
@@ -70,7 +71,12 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(hp <= 0)
+        {
+            isAlive = false;
+            boss.SetActive(false);
+        }
+
         if (bossstart == true)
           {
             timerAtk1 += Time.deltaTime;
@@ -101,6 +107,12 @@ public class Boss : MonoBehaviour
                 if (Attacks == 3)
                 {
                     Swing2Shockwave();
+                    timerstop = 0f;
+                }
+                if (Attacks == 4)
+                {
+                    Swing();
+                    Shoot();
                     timerstop = 0f;
                 }
             }

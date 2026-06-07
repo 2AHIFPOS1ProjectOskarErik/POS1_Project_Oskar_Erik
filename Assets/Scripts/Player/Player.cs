@@ -10,6 +10,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
 using System.Collections;
+using System.IO;
+using System.Text;
 public class Movement : MonoBehaviour
 {
     public double dmg = 2;
@@ -50,7 +52,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private Animator _animation;    private Animator _animation_jump;
     Animator animator;
     //ende tutorialvideo code:
-
+    SaveHelp save;
 
 
     private void Awake()
@@ -82,7 +84,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
-
+        save = new SaveHelp();
         DontDestroyOnLoad(player); // von ChatGPT
         Übergänge = new List<Vector2>();
         Übergänge.Add(new Vector2(7.5f, 1.8f));
@@ -98,6 +100,8 @@ public class Movement : MonoBehaviour
         
         Checkpoints.Add(new Vector2(-15.12f, -1.76f));
         Checkpoints.Add(new Vector2(-1.64f, -1.04f));
+        Checkpoints.Add(new Vector2(-186.61f, -0.22f));
+        Checkpoints.Add(new Vector2(-0.73f, 14.02f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -199,7 +203,7 @@ public class Movement : MonoBehaviour
 
         }
 
-        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Falle"))
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Falle") || collision.gameObject.CompareTag("Boss"))
         {
             TakeDamage();
         }
@@ -226,6 +230,7 @@ public class Movement : MonoBehaviour
         {
             SceneManager.LoadScene("Dungeon");
             current_Checkpoint = 1;
+            Speichern();
             transform.position = Übergänge[3];
         }
         if (collision.gameObject.CompareTag("Shop") && Keyboard.current.eKey.isPressed)
@@ -233,6 +238,8 @@ public class Movement : MonoBehaviour
             SceneManager.LoadScene("Shop");
             transform.position = Übergänge[3];
         }
+
+       
 
         if (collision.gameObject.CompareTag("MiniBossFight"))
         {
@@ -274,7 +281,7 @@ public class Movement : MonoBehaviour
             dialogfin = false;
         }
 
-        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss"))
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss") || collision.gameObject.CompareTag("Falle") || collision.gameObject.CompareTag("Boss"))
         {
             TakeDamage();
         }
@@ -282,6 +289,9 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Übergang TutSchloss"))
         {
+            
+            //Speichern();
+            
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[0];
         }
@@ -289,6 +299,8 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Übergang SchlossTut"))
         {
+            current_Checkpoint = 0;
+            //Speichern();
             SceneManager.LoadScene("Tutorial");
             transform.position = Übergänge[1];
         }
@@ -297,12 +309,30 @@ public class Movement : MonoBehaviour
         {
             SceneManager.LoadScene("Dungeon");
             current_Checkpoint = 1;
+            Speichern();
             transform.position = Übergänge[3];
         }
         if (collision.gameObject.CompareTag("Seil"))
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
+        }
+
+        if (collision.gameObject.CompareTag("ÜbergangCaves"))
+        {
+            current_Checkpoint = 2;
+            Speichern();
+            transform.position = Übergänge[10];
+            SceneManager.LoadScene("Crystal Cave");
+        }
+
+        if (collision.gameObject.CompareTag("SeilCaves") && Keyboard.current.eKey.isPressed)
+        {
+
+            current_Checkpoint = 1;
+            Speichern();
+            transform.position = Übergänge[11];
+            SceneManager.LoadScene("Dungeon");
         }
 
         if (collision.gameObject.CompareTag("MiniBossFight"))
@@ -459,5 +489,21 @@ public class Movement : MonoBehaviour
         strengthActive = false;
 
         Debug.Log("Strength Buff beendet!");
+    }
+
+    private void Speichern()
+    {
+        save.hp = hp;
+        save.maxhp = maxHP;
+        save.dmg = dmg;
+        save.current_checkpoint = current_Checkpoint;
+        save.minialive = miniBossCode.isAlive;
+        save.bossalive = bossCode.isAlive;
+        string json = JsonUtility.ToJson(save);
+
+        using (StreamWriter sr = new StreamWriter("playersave.txt"))
+        {
+            sr.Write(json);
+        }
     }
 }

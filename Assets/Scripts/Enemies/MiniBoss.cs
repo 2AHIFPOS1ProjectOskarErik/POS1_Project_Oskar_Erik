@@ -25,8 +25,9 @@ public class MiniBoss : MonoBehaviour
     public MiniBossHP hpcode;
     public GameObject hpcanvas;
     private bool hpactive = false;
+    public bool isAlive = true;
 
-    public int moneyReward = 10;
+    public int moneyReward = 100;
 
 
     private void Awake()
@@ -79,7 +80,7 @@ public class MiniBoss : MonoBehaviour
             hpcanvas.SetActive(false);
             miniBoss.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
-
+            isAlive = false;
         }
 
         if (bossstart == true)

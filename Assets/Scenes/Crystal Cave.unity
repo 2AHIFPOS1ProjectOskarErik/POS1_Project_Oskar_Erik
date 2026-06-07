@@ -1052,7 +1052,9 @@ MonoBehaviour:
   Atk1: {fileID: 1322218345}
   Atk2Shockwave: {fileID: 920736719}
   Schockwave: {fileID: 207025596}
+  Atk3Schockwave: {fileID: 0}
   moneyReward: 10
+  isAlive: 1
 --- !u!1 &547771565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,7 +1215,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &920736720
 Transform:
   m_ObjectHideFlags: 0
@@ -1223,8 +1225,8 @@ Transform:
   m_GameObject: {fileID: 920736719}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7, y: -0.5, z: 0.03}
-  m_LocalScale: {x: 0.86731094, y: 0.5002346, z: 1}
+  m_LocalPosition: {x: 0.70942, y: -0.5, z: 0.03}
+  m_LocalScale: {x: 0.84848166, y: 0.5002346, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 207025597}
@@ -2421,7 +2423,7 @@ Transform:
   m_GameObject: {fileID: 1417117873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -1.04, z: 0}
+  m_LocalPosition: {x: -0.73, y: 14.02, z: 0}
   m_LocalScale: {x: 1, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2931,7 +2933,7 @@ GameObject:
   - component: {fileID: 1668510804}
   m_Layer: 5
   m_Name: CanvasHP
-  m_TagString: Untagged
+  m_TagString: SeilCaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
