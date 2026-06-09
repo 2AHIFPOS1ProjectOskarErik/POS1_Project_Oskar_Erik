@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections.Generic;
 using TMPro;
 
 public class InventoryUI : MonoBehaviour
@@ -13,32 +12,52 @@ public class InventoryUI : MonoBehaviour
     public TMP_Text strengthText;
     public TMP_Text coinText;
 
-    bool isOpen = false;
+    private bool isOpen = false;
 
     void Awake()
     {
+        // Singleton-Schutz
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
+
+        // Objekt zwischen Szenen behalten
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
     {
-        inventoryPanel.SetActive(false);
+        if (inventoryPanel != null)
+            inventoryPanel.SetActive(false);
+
         UpdateTexts();
     }
 
     void Update()
     {
-        if (Keyboard.current.tabKey.wasPressedThisFrame)
+        if (Keyboard.current != null &&
+            Keyboard.current.tabKey.wasPressedThisFrame)
         {
             isOpen = !isOpen;
-            inventoryPanel.SetActive(isOpen);
+
+            if (inventoryPanel != null)
+                inventoryPanel.SetActive(isOpen);
         }
     }
 
     public void UpdateTexts()
     {
-        healthText.text = PlayerPrefs.GetInt("Health", 0).ToString();
-        strengthText.text = PlayerPrefs.GetInt("Strength", 0).ToString();
+        if (healthText != null)
+            healthText.text = PlayerPrefs.GetInt("Health", 0).ToString();
 
+        if (strengthText != null)
+            strengthText.text = PlayerPrefs.GetInt("Strength", 0).ToString();
+
+        if (coinText != null)
+            coinText.text = PlayerPrefs.GetInt("Coins", 0).ToString();
     }
 }

@@ -81,6 +81,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
 
+        maxHP = 5;
         DontDestroyOnLoad(player); // von ChatGPT
         Übergänge = new List<Vector2>();
         Übergänge.Add(new Vector2(7.5f, 1.8f));
