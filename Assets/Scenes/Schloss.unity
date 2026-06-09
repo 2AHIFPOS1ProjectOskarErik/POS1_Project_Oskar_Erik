@@ -1166,7 +1166,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436924127}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
   m_Name: 
@@ -1405,7 +1405,12 @@ MonoBehaviour:
   waffe1: {fileID: 436924127}
   player: {fileID: 0}
   hp: 5
+  maxHP: 5
   HPAnzeige: {fileID: 0}
+  "\xDCberg\xE4nge": []
+  Checkpoints: []
+  current_Checkpoint: 0
+  camerafollow: {fileID: 0}
   _animation: {fileID: 566212493}
 --- !u!61 &566212496
 BoxCollider2D:

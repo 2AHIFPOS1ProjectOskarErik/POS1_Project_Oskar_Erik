@@ -45,6 +45,8 @@ public class HPAnzeige : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(HerzPrefab);
+
+
         for (int i = 0; i < playercode.maxHP; i++)
         {
             GameObject Herz = Instantiate(HerzPrefab, Herzparent);
@@ -70,5 +72,21 @@ public class HPAnzeige : MonoBehaviour
             }
         }
     }
+    
+    //ChatGPT code anfang
+    public void AddHeart()
+    {
+        GameObject Herz = Instantiate(HerzPrefab, Herzparent);
+
+        Herz.transform.position = new Vector2(
+            HerzPrefab.transform.position.x + (Herzen.Count * 55f),
+            HerzPrefab.transform.position.y
+        );
+
+        Herz.GetComponent<UnityEngine.UI.Image>().enabled = true;
+
+        Herzen.Add(Herz.GetComponent<UnityEngine.UI.Image>());
+    }
+    //ChatGPT code ende
 
 }
