@@ -75,7 +75,16 @@ public class Movement : MonoBehaviour
         GateBoss2 = GameObject.Find("GateBoss 2");
         MiniBoss = GameObject.Find("Mini Boss");
         boss = GameObject.Find("Boss");
-
+        try
+        {
+            miniBossCode = MiniBoss.GetComponent<MiniBoss>();
+        }
+        catch { }
+        try
+        {
+            bossCode = boss.GetComponent<Boss>();
+        }
+        catch { }
     }
 
 
@@ -102,16 +111,7 @@ public class Movement : MonoBehaviour
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        try
-        {
-            miniBossCode = MiniBoss.GetComponent<MiniBoss>();
-        }
-        catch { }
-        try 
-        {
-            bossCode = boss.GetComponent<Boss>();
-        }
-        catch { }
+        
        
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
