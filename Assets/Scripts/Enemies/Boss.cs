@@ -11,7 +11,8 @@ public class Boss : MonoBehaviour
     BoxCollider2D collider2D;
     float direction;
     float timer = 0f;
-    public double hp = 5;
+    public double hp = 100;
+    public double maxHP = 100;
     public GameObject boss;
     public GameObject player;
     private Movement playercode;
@@ -25,7 +26,7 @@ public class Boss : MonoBehaviour
     public bool bossstart = false;
     private float pause = 2.5f;
     public GameObject bossgate;
-    public MiniBossHP hpcode;
+    public BossHP hpcode;
     public GameObject hpcanvas;
     public GameObject bullet;
     private GameObject bulletinstance;
@@ -70,9 +71,14 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (hp <= 0)
+        {
+            Die();
+        }
         
         if (bossstart == true)
-          {
+        {
+            hpcanvas.SetActive(true);
             timerAtk1 += Time.deltaTime;
             if (timerAtk1 >= 1.5f)
             {
@@ -173,5 +179,16 @@ public class Boss : MonoBehaviour
         timerSchockwave = 0f;
         Atk2Shockwave.SetActive(true);   
         schockwave = true;
+    }
+
+    public void Die()
+    {
+        if (hp <= 0)
+        {
+            hpcanvas.SetActive(false);
+            boss.SetActive(false);
+            Geld_anzeige.Instance.AddMoney(1000);
+            hpactive = true;
+        }
     }
 }
