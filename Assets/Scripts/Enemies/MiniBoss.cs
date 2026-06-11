@@ -11,6 +11,7 @@ public class MiniBoss : MonoBehaviour
     BoxCollider2D collider2D;
     float direction;
     float timer = 0f;
+    public float maxHp = 60;
     public double hp = 5;
     public GameObject miniBoss;
     public GameObject player;
@@ -76,10 +77,12 @@ public class MiniBoss : MonoBehaviour
 
         if (hp <= 0)
         {
+            
             hpcanvas.SetActive(false);
             miniBoss.SetActive(false);
+            bossgate.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
-
+            hpactive = true;
         }
 
         if (bossstart == true)
@@ -87,6 +90,7 @@ public class MiniBoss : MonoBehaviour
             if (hpactive == false)
             {
                 hpcanvas.SetActive(true);
+                
             }
 
             timerstop += Time.deltaTime;

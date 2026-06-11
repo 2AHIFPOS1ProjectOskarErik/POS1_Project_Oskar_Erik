@@ -1963,7 +1963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a2c95a511233e4288146683cfe0d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MiniBoss
-  hp: 60
+  maxHp: 30
+  hp: 30
   miniBoss: {fileID: 478311143}
   player: {fileID: 1144606314}
   bossstart: 0
@@ -6030,6 +6031,7 @@ MonoBehaviour:
   HerzFull: {fileID: 2778960673270991775, guid: 25d9dc6851079bf4daad98f0166df25e, type: 3}
   HerzEmpty: {fileID: -3843960056942578190, guid: abd9bc70a8bc68d468a633312f7debb9, type: 3}
   maxHP: 30
+  miniBoss: {fileID: 478311149}
   currentHP: 30
 --- !u!114 &1863720896
 MonoBehaviour:

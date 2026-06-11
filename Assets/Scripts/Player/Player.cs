@@ -275,7 +275,7 @@ public class Movement : MonoBehaviour
             dialogfin = false;
         }
 
-        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss"))
+        if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss") || collision.gameObject.CompareTag("Boss"))
         {
             TakeDamage();
         }

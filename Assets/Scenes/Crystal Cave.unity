@@ -1042,11 +1042,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   hp: 80
+  maxHP: 100
   boss: {fileID: 346667353}
   player: {fileID: 1417117873}
   bossstart: 0
   bossgate: {fileID: 1220291072}
-  hpcode: {fileID: 2058720855}
+  hpcode: {fileID: 0}
   hpcanvas: {fileID: 2058720854}
   bullet: {fileID: 20901570}
   Atk1: {fileID: 1322218345}
@@ -3246,7 +3247,7 @@ GameObject:
   - component: {fileID: 2058720859}
   - component: {fileID: 2058720858}
   - component: {fileID: 2058720857}
-  - component: {fileID: 2058720855}
+  - component: {fileID: 2058720860}
   m_Layer: 5
   m_Name: CanvasBossHP
   m_TagString: Untagged
@@ -3254,24 +3255,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &2058720855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058720854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21336da8eb66f4a43a598b28df56511c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MiniBossHP
-  Herzparent: {fileID: 2058720856}
-  HerzPrefab: {fileID: 547771565}
-  HerzFull: {fileID: 2778960673270991775, guid: 25d9dc6851079bf4daad98f0166df25e, type: 3}
-  HerzEmpty: {fileID: -3843960056942578190, guid: abd9bc70a8bc68d468a633312f7debb9, type: 3}
-  maxHP: 30
-  currentHP: 30
 --- !u!224 &2058720856
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3355,6 +3338,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2058720860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058720854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512b18cf05141eb4081d2bdaabcddd2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  Herzparent: {fileID: 2058720856}
+  HerzPrefab: {fileID: 547771565}
+  HerzFull: {fileID: 2778960673270991775, guid: 25d9dc6851079bf4daad98f0166df25e, type: 3}
+  HerzEmpty: {fileID: -3843960056942578190, guid: abd9bc70a8bc68d468a633312f7debb9, type: 3}
+  maxHP: 100
+  boss: {fileID: 0}
+  currentHP: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
