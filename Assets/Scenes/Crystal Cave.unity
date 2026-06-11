@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 20901574}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b92a10f896e0c24c9ea5bd8fbb6a591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  hp: 80
+  hp: 100
   maxHP: 100
   boss: {fileID: 346667353}
   player: {fileID: 1417117873}
@@ -1210,11 +1210,11 @@ GameObject:
   - component: {fileID: 920736721}
   m_Layer: 0
   m_Name: Swing 2 Spikes
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &920736720
 Transform:
   m_ObjectHideFlags: 0
@@ -1977,7 +1977,7 @@ GameObject:
   - component: {fileID: 1322218347}
   m_Layer: 0
   m_Name: Swing 1
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3355,7 +3355,7 @@ MonoBehaviour:
   HerzFull: {fileID: 2778960673270991775, guid: 25d9dc6851079bf4daad98f0166df25e, type: 3}
   HerzEmpty: {fileID: -3843960056942578190, guid: abd9bc70a8bc68d468a633312f7debb9, type: 3}
   maxHP: 100
-  boss: {fileID: 0}
+  boss: {fileID: 346667359}
   currentHP: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
