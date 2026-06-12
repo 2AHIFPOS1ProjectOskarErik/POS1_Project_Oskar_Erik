@@ -437,7 +437,6 @@ public class Movement : MonoBehaviour
         if (strengthPotions > 0 && !strengthActive)
         {
             strengthPotions--;
-
             PlayerPrefs.SetInt("Strength", strengthPotions);
 
             dmg *= 2;
@@ -451,6 +450,7 @@ public class Movement : MonoBehaviour
             Debug.Log("Strength Potion benutzt!");
         }
     }
+    //ChatGPT code anfang
     IEnumerator RemoveStrengthBuff()
     {
         yield return new WaitForSeconds(120f);
@@ -461,4 +461,5 @@ public class Movement : MonoBehaviour
 
         Debug.Log("Strength Buff beendet!");
     }
+    //ChatGPT code ende
 }
