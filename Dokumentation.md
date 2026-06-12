@@ -135,3 +135,9 @@ Die folgende Tabelle zeigt alle geplanten Features, deren Issue-Nummern und den 
 obwohl er auch admin ist . |
 | **Ursache** | wurde nie gefunden |
 | **Lösung** | hat das programmieren und pushen nicht gestört also maben wir es einfach so gellasen|
+
+### 4.4 Gameengine war ungewohnt
+| | |
+|---|---|
+| **Problem** | Wir beide haben zum ersten Mal mit Unity gearbeitet |
+| **Lösung** | Tutorials anschauen und uns Befehle von KI erklären lassen |

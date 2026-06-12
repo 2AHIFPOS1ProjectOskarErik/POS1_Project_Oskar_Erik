@@ -217,7 +217,7 @@ public class Movement : MonoBehaviour
             enemyfollowscript.Follow();
         }
 
-        if (collision.gameObject.CompareTag("Seil"))
+        if (collision.gameObject.CompareTag("Seil") && Keyboard.current.eKey.isPressed)
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
@@ -300,7 +300,7 @@ public class Movement : MonoBehaviour
             current_Checkpoint = 1;
             transform.position = Übergänge[3];
         }
-        if (collision.gameObject.CompareTag("Seil"))
+        if (collision.gameObject.CompareTag("Seil") && Keyboard.current.eKey.isPressed)
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
@@ -320,6 +320,11 @@ public class Movement : MonoBehaviour
             GateBoss2.GetComponent<SpriteRenderer>().enabled = true;
             bossCode.bossstart = true;
 
+        }
+        if (collision.gameObject.CompareTag("Übergang Caves"))
+        {
+            SceneManager.LoadScene("Crystal Cave");
+            player.transform.position = new Vector2(0f, 0f);
         }
     }
 

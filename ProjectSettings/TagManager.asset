@@ -25,6 +25,8 @@ TagManager:
   - Falle
   - Boss
   - Bossfight
+  - "\xDCbergang Caves"
+  - Seil Caves
   layers:
   - Default
   - TransparentFX
