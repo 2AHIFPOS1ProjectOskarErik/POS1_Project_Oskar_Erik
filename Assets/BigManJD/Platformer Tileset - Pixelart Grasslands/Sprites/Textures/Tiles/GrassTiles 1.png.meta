@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66453c654294d2045aa5eb98e5ea9f7d
+guid: 2682ec76978c40144bf204e8140e70b4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -2464,10 +2464,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 248158
-  packageName: Platformer Tileset - Pixelart Grasslands
-  packageVersion: 1.0
-  assetPath: Assets/BigManJD/Platformer Tileset - Pixelart Grasslands/Sprites/Textures/Tiles/GrassTiles.png
-  uploadId: 577368
