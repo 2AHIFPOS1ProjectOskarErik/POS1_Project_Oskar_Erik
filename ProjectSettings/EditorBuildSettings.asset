@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: 82764b4eaf3605346969ff082349d197
+  - enabled: 1
+    path: Assets/Scenes/Crystal Cave.unity
+    guid: 2a69a80b491bcb742bd8aa5b88174af7
+  - enabled: 1
+    path: Assets/Scenes/Secret Shop.unity
+    guid: 3d91a10c90baa354bbec443e44125ce2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -20,7 +20,7 @@ public class shop_leave : MonoBehaviour
 
             if (p != null)
             {
-                p.transform.position = Vector2.zero;
+                p.transform.position = new Vector2(-55f, -1.5f);
             }
 
             SceneManager.sceneLoaded -= OnSceneLoaded;

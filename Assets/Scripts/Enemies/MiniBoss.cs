@@ -23,6 +23,7 @@ public class MiniBoss : MonoBehaviour
     public bool bossstart = false;
     private float pause = 2.5f;
     public GameObject bossgate;
+    public GameObject bossgate2;
     public MiniBossHP hpcode;
     public GameObject hpcanvas;
     private bool hpactive = false;
@@ -81,6 +82,7 @@ public class MiniBoss : MonoBehaviour
             hpcanvas.SetActive(false);
             miniBoss.SetActive(false);
             bossgate.SetActive(false);
+            bossgate2.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
             hpactive = true;
         }
