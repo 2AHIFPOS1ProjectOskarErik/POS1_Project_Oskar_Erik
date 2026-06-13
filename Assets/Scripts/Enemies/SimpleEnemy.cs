@@ -63,10 +63,16 @@ public class SimpleEnemy : MonoBehaviour
             if (direction == 1f)
             {
                 direction = -1f;
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(-1, 1, 1);
+                // ChatGPT code ende
             }
             else if (direction == -1f)
             {
                 direction = 1f;
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(1, 1, 1);
+                // ChatGPT code ende
             }
         }
     }
@@ -79,10 +85,16 @@ public class SimpleEnemy : MonoBehaviour
             if (player.transform.position.x > enemy.transform.position.x)
             {
                 direction = -1;
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(-1, 1, 1);
+                // ChatGPT code ende
             }
             else
             {
                 direction = 1;
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(1, 1, 1);
+                // ChatGPT code ende
             }
             
 
