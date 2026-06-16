@@ -27,6 +27,7 @@ TagManager:
   - Bossfight
   - "\xDCbergang Caves"
   - Seil Caves
+  - Upslash
   layers:
   - Default
   - TransparentFX

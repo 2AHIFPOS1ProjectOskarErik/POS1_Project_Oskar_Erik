@@ -23,6 +23,7 @@ public class Movement : MonoBehaviour
     public bool canmove = true;
     bool dialogfin = false;
     public GameObject waffe1;
+    public GameObject upslash;
     public GameObject player;
     private GameObject GateBoss;
     private GameObject GateBoss2;
@@ -140,9 +141,14 @@ public class Movement : MonoBehaviour
         {
             Attack();
         }
+        if (Keyboard.current.wKey.wasPressedThisFrame)
+        {
+            UpAttack();
+        }
         if (timeratk >= 0.5)
         {
             waffe1.SetActive(false);
+            upslash.SetActive(false);
         }
         Crouch();
         Move();
@@ -413,6 +419,17 @@ public class Movement : MonoBehaviour
         }
         
     }
+
+    public void UpAttack()
+    {
+        if (timeratkcool >= 1f)
+        {
+            timeratk = 0;
+            upslash.SetActive(true);
+            timeratkcool = 0;
+        }
+    }
+
     void UseHealthPotion()
     {
         int healthPotions = PlayerPrefs.GetInt("Health", 0);
