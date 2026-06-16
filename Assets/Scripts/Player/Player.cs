@@ -20,8 +20,10 @@ public class Movement : MonoBehaviour
     bool canjump;
     float timer;
     public Dialog1 dialog1;
+    public king dialogking;
     public bool canmove = true;
     bool dialogfin = false;
+    bool dialogkingfin = false;
     public GameObject waffe1;
     public GameObject upslash;
     public GameObject player;
@@ -76,6 +78,8 @@ public class Movement : MonoBehaviour
         GateBoss2 = GameObject.Find("GateBoss 2");
         MiniBoss = GameObject.Find("Mini Boss");
         boss = GameObject.Find("Boss");
+        GameObject dialogkingobj = GameObject.Find("Thron");
+        
         try
         {
             miniBossCode = MiniBoss.GetComponent<MiniBoss>();
@@ -84,6 +88,11 @@ public class Movement : MonoBehaviour
         try
         {
             bossCode = boss.GetComponent<Boss>();
+        }
+        catch { }
+        try
+        {
+            dialogking = dialogkingobj.GetComponent<king>();
         }
         catch { }
     }
@@ -141,7 +150,7 @@ public class Movement : MonoBehaviour
         {
             Attack();
         }
-        if (Keyboard.current.wKey.wasPressedThisFrame)
+        if (Keyboard.current.wKey.isPressed && Mouse.current.leftButton.wasPressedThisFrame)
         {
             UpAttack();
         }
@@ -198,6 +207,28 @@ public class Movement : MonoBehaviour
                 dialogfin = dialog1.RunDialog();
             }
             if (dialogfin == true)
+            {
+                canmove = true;
+                camera.orthographicSize = 6f;
+                camerafollow.offset = new Vector3(0f, 4f, -10f);
+            }
+
+        }
+
+
+        if (collision.gameObject.CompareTag("Thron"))
+        {
+            if (collision.gameObject.CompareTag("Floor"))
+                canjump = true;
+
+            if (Keyboard.current.eKey.wasPressedThisFrame && dialogkingfin == false)
+            {
+                canmove = false;
+                camera.orthographicSize = 4f;
+                camerafollow.offset = new Vector3(1f, 2f, -10f);
+                dialogkingfin = dialogking.RunDialog();
+            }
+            if (dialogkingfin == true)
             {
                 canmove = true;
                 camera.orthographicSize = 6f;
@@ -279,6 +310,10 @@ public class Movement : MonoBehaviour
                 canjump = true;
             dialog1.text.text = "Druecke \"E\" um mit mir zu Interagieren!";
             dialogfin = false;
+        }
+        if (collision.gameObject.CompareTag("Thron"))
+        {
+            dialogkingfin = false;
         }
 
         if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss") || collision.gameObject.CompareTag("Boss"))
