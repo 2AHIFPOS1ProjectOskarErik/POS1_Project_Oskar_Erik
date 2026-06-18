@@ -47,8 +47,7 @@ public class Movement : MonoBehaviour
     bool gefangen = false;
     bool falleBenutzt = false;
     //start tutorialvideo code:
-    [SerializeField] private Animator _animation;    private Animator _animation_jump;
-    Animator animator;
+    private Animator animator;
     //ende tutorialvideo code:
 
 
@@ -92,6 +91,10 @@ public class Movement : MonoBehaviour
     void Start()
     {
 
+        // ChatGPT code anfang
+        animator = GetComponent<Animator>();
+        // ChatGPT code ende
+
         maxHP = 5;
         DontDestroyOnLoad(player); // von ChatGPT
         Übergänge = new List<Vector2>();
@@ -116,7 +119,7 @@ public class Movement : MonoBehaviour
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
-        _animation_jump = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         camera.orthographicSize = 6f;
     }
 
@@ -142,7 +145,9 @@ public class Movement : MonoBehaviour
         }
         if (timeratk >= 0.5)
         {
+            animator.SetBool("IsHitting", false);
             waffe1.SetActive(false);
+
         }
         Crouch();
         Move();
@@ -335,20 +340,20 @@ public class Movement : MonoBehaviour
         float move = 0;
         if (Keyboard.current.dKey.isPressed && canmove == true)
         {
-            _animation.SetBool("IsRunning", true);
+            animator.SetBool("IsRunning", true);
             transform.localScale = new Vector3(1, 1, 1);
             move = 1;
         }
         if (Keyboard.current.aKey.isPressed && canmove == true)
         {
-            _animation.SetBool("IsRunning", true);
+            animator.SetBool("IsRunning", true);
             move = -1;
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
         if (Keyboard.current.dKey.isPressed == false && Keyboard.current.aKey.isPressed == false)
         {
-            _animation.SetBool("IsRunning", false);
+            animator.SetBool("IsRunning", false);
         }
         rb.linearVelocity = new Vector2(move * 8f, rb.linearVelocity.y);
     }
@@ -372,14 +377,14 @@ public class Movement : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.isPressed && canjump == true && canmove == true)
         {
-            _animation_jump.SetBool("IsJumping", true);
+            animator.SetBool("IsJumping", true);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
             canjump = false;
 
         }
         if (canjump == true)
         {
-            _animation_jump.SetBool("IsJumping", false);
+            animator.SetBool("IsJumping", false);
         }
     }
 
@@ -407,9 +412,12 @@ public class Movement : MonoBehaviour
     {
         if (timeratkcool >= 1f)
         {
+            animator.SetBool("IsHitting", true);
             timeratk = 0;
             waffe1.SetActive(true);
             timeratkcool = 0;
+
+
         }
         
     }
@@ -432,7 +440,7 @@ public class Movement : MonoBehaviour
 
             InventoryUI.Instance.UpdateTexts();
 
-            Debug.Log("Health Potion benutzt!");
+            Debug.Log("Geheilt!");
         }
     }
     void UseStrengthPotion()
@@ -452,7 +460,7 @@ public class Movement : MonoBehaviour
 
             StartCoroutine(RemoveStrengthBuff());
 
-            Debug.Log("Strength Potion benutzt!");
+            Debug.Log("stärke potion benutzt");
         }
     }
     //ChatGPT code anfang
@@ -464,7 +472,7 @@ public class Movement : MonoBehaviour
 
         strengthActive = false;
 
-        Debug.Log("Strength Buff beendet!");
+        Debug.Log("Strength potion beendet!");
     }
     //ChatGPT code ende
 }
