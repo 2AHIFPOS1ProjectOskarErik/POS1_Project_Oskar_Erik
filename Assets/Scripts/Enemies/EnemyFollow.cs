@@ -64,10 +64,17 @@ public class EnemyFollow : MonoBehaviour
             if (direction > 0f)
             {
                 direction = direction *(-1);
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(-1, 1, 1);
+                // ChatGPT code ende
+
             }
             else if (direction < 0f)
             {
                 direction = direction * (-1);
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(1, 1, 1);
+                // ChatGPT code ende
             }
         }
     }
@@ -87,11 +94,17 @@ public class EnemyFollow : MonoBehaviour
         if (playercode.transform.position.x < transform.position.x)
         {
             direction = -1f;
+            // ChatGPT code anfang für die Animation
+            transform.localScale = new Vector3(-1, 1, 1);
+            // ChatGPT code ende
 
         }
         if (playercode.transform.position.x > transform.position.x)
         {
             direction = 1f;
+            // ChatGPT code anfang für die Animation
+            transform.localScale = new Vector3(1, 1, 1);
+            // ChatGPT code ende
         }
     }
 }

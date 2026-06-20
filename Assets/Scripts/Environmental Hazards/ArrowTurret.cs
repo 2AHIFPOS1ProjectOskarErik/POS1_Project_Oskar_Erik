@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class ArrowTurret : MonoBehaviour
 {
+    // Chatgpt code anfang
     public GameObject arrowPrefab;
 
     void Start()
@@ -17,4 +18,5 @@ public class ArrowTurret : MonoBehaviour
             transform.rotation
         );
     }
+    // Chatgpt code ende
 }
