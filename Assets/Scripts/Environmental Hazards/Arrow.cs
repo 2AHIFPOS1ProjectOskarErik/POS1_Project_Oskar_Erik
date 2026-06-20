@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
+    // Chatgpt code anfang 
     public float speed = 10f;
 
     void Update()
@@ -22,4 +23,5 @@ public class Arrow : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    // Chatgpt code ende
 }
