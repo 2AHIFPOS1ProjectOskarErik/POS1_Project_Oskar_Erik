@@ -1,5 +1,6 @@
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadHelper : MonoBehaviour
 {
@@ -30,6 +31,14 @@ public class LoadHelper : MonoBehaviour
         }
         catch { }
         wasLoaded = true;
+        if (data.Current_Checkpoint == 0)
+        {
+            SceneManager.LoadScene("Tutorial");
+        }
+        if (data.Current_Checkpoint == 1)
+        {
+            SceneManager.LoadScene("Dungeon");
+        }
     }
 }
  

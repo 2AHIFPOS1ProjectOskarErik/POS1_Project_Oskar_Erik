@@ -15,6 +15,6 @@ public class Startmenu : MonoBehaviour
 
     public void ContinueGame()
     {
-
+        Loadhelp.GetComponent<LoadHelper>().Load();
     }
 }
