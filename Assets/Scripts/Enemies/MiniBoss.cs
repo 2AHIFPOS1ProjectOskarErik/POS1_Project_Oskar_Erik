@@ -173,10 +173,16 @@ public class MiniBoss : MonoBehaviour
             if (direction > 0f)
             {
                 direction = direction * (-1);
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(-1, 1, 1);
+                // ChatGPT code ende
             }
             else if (direction < 0f)
             {
                 direction = direction * (-1);
+                // ChatGPT code anfang für die Animation
+                transform.localScale = new Vector3(-1, 1, 1);
+                // ChatGPT code ende
             }
         }
     }
