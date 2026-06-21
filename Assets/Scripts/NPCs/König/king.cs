@@ -23,11 +23,11 @@ public class king : MonoBehaviour
 
         if (text.text == "Trete heran!")
         {
-            text.text = "Oh holder Ritter, tritt frohen Mutes hinab in die Tiefen des Kerkers!";
+            text.text = "Oh holder Ritter, \n tritt frohen Mutes hinab in die Tiefen des Kerkers!";
             timer = 0f;
 
         }
-        if (timer >= 0.5f && text.text == "Oh holder Ritter, tritt frohen Mutes hinab in die Tiefen des Kerkers!")
+        if (timer >= 0.5f && text.text == "Oh holder Ritter, \n tritt frohen Mutes hinab in die Tiefen des Kerkers!")
         {
             text.text = "Den Eingang findest du beim Brunnen am Marktplatz";
 

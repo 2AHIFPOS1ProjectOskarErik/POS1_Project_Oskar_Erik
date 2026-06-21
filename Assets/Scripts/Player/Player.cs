@@ -21,6 +21,7 @@ public class Movement : MonoBehaviour
     bool canjump;
     float timer;
     public Dialog1 dialog1;
+    private GameObject king;
     public king dialogking;
     public bool canmove = true;
     bool dialogfin = false;
@@ -80,8 +81,9 @@ public class Movement : MonoBehaviour
         GateBoss2 = GameObject.Find("GateBoss 2");
         MiniBoss = GameObject.Find("Mini Boss");
         boss = GameObject.Find("Boss");
-        GameObject dialogkingobj = GameObject.Find("Thron");
+        GameObject king = GameObject.Find("Thron");
         LoadHelper = GameObject.Find("Loadhelper");
+        king = GameObject.Find("Dialog King");
         try
         {
             miniBossCode = MiniBoss.GetComponent<MiniBoss>();
@@ -94,7 +96,7 @@ public class Movement : MonoBehaviour
         catch { }
         try
         {
-            dialogking = dialogkingobj.GetComponent<king>();
+            dialogking = king.GetComponent<king>();
         }
         catch { }
         try
@@ -154,6 +156,11 @@ public class Movement : MonoBehaviour
             if (current_Checkpoint == 1)
             {
                 SceneManager.LoadScene("Dungeon");
+                try
+                {
+                    miniBossCode = MiniBoss.GetComponent<MiniBoss>();
+                }
+                catch { }
             }
             if (current_Checkpoint == 2)
             {
@@ -252,6 +259,8 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Thron"))
         {
+            GameObject king = GameObject.Find("Dialog King");
+            dialogking = king.GetComponent<king>();
             if (collision.gameObject.CompareTag("Floor"))
                 canjump = true;
 
@@ -347,7 +356,24 @@ public class Movement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Thron"))
         {
-            dialogkingfin = false;
+            GameObject king = GameObject.Find("Thron");
+            dialogking = king.GetComponent<king>();
+            if (collision.gameObject.CompareTag("Floor"))
+                canjump = true;
+
+            if (Keyboard.current.eKey.wasPressedThisFrame && dialogkingfin == false)
+            {
+                canmove = false;
+                camera.orthographicSize = 4f;
+                camerafollow.offset = new Vector3(1f, 2f, -10f);
+                dialogkingfin = dialogking.RunDialog();
+            }
+            if (dialogkingfin == true)
+            {
+                canmove = true;
+                camera.orthographicSize = 6f;
+                camerafollow.offset = new Vector3(0f, 4f, -10f);
+            }
         }
 
         if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss") || collision.gameObject.CompareTag("Boss"))
@@ -360,6 +386,8 @@ public class Movement : MonoBehaviour
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[0];
+            
+            
         }
 
 

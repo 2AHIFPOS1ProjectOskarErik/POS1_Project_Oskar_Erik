@@ -26,6 +26,7 @@ public class Geld_anzeige : MonoBehaviour
     void Start()
     {
         UpdateUI();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void AddMoney(int amount)
