@@ -927,6 +927,7 @@ GameObject:
   - component: {fileID: 82384851}
   - component: {fileID: 82384850}
   - component: {fileID: 82384849}
+  - component: {fileID: 82384852}
   m_Layer: 5
   m_Name: map
   m_TagString: Untagged
@@ -1017,6 +1018,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &82384852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82384847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0f3d6e408a9d34fbe3a3d44234e88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Musik
 --- !u!1 &91439003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1132,7 @@ GameObject:
   - component: {fileID: 103442567}
   - component: {fileID: 103442566}
   - component: {fileID: 103442565}
+  - component: {fileID: 103442569}
   m_Layer: 5
   m_Name: Inventar
   m_TagString: Untagged
@@ -1209,6 +1223,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &103442569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103442564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0f3d6e408a9d34fbe3a3d44234e88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Musik
 --- !u!1 &129993541
 GameObject:
   m_ObjectHideFlags: 0
@@ -5714,6 +5740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872666300}
   - component: {fileID: 872666299}
+  - component: {fileID: 872666301}
   m_Layer: 0
   m_Name: Musik
   m_TagString: Untagged
@@ -5833,6 +5860,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &872666301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872666298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd8866dd8d4cbc48a7d7f79065bf2e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &895826098
 GameObject:
   m_ObjectHideFlags: 0
@@ -8871,6 +8910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1603784793}
   - component: {fileID: 1603784792}
+  - component: {fileID: 1603784794}
   m_Layer: 0
   m_Name: InventoryManager
   m_TagString: Untagged
@@ -8909,6 +8949,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1603784794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603784791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0f3d6e408a9d34fbe3a3d44234e88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Musik
 --- !u!1 &1663988249
 GameObject:
   m_ObjectHideFlags: 0
