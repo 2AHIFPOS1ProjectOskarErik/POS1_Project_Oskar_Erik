@@ -4,7 +4,11 @@ using UnityEngine.InputSystem;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public GameObject container;
-
+    public Movement player;
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -23,5 +27,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public void Quit()
     {
         SceneManager.LoadScene("Startmenu");
+    }
+
+    public void Save()
+    {
+        player.Speichern();
     }
 }

@@ -15,19 +15,12 @@ public class MiniBossHP : MonoBehaviour
     public static MiniBossHP instance;
     public MiniBoss miniBoss;
     public double currentHP = 5;
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+
     }
     void Start()
     {

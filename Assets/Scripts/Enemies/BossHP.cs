@@ -20,16 +20,6 @@ public class BossHP : MonoBehaviour
     private void Awake()
     {
 
-
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
     void Start()
     {
