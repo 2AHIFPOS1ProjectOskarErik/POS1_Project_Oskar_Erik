@@ -462,13 +462,21 @@ public class Movement : MonoBehaviour
         {
             collider2D.size = new Vector2(1f, 1f);
             collider2D.offset = new Vector2(0f, -0.5f);
-            
-            
+            animator.SetBool("IsSneaking", true);
+            if (Keyboard.current.wKey.isPressed && canmove == true)
+            {
+                animator.SetBool("IsWalking", true);
+            }
         }
         else
         {
             collider2D.size = new Vector2(1f, 2f);
             collider2D.offset = new Vector2(0f, 0f);
+            animator.SetBool("IsSneaking", false);
+            if (Keyboard.current.wKey.isPressed && canmove == true)
+            {
+                animator.SetBool("IsWalking", false);
+            }
         }
     }
     public void Jump()
