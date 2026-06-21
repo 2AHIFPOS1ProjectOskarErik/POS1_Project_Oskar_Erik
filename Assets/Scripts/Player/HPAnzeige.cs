@@ -52,6 +52,7 @@ public class HPAnzeige : MonoBehaviour
             Herz.transform.position = new Vector2(HerzPrefab.transform.position.x + (i * 55f), HerzPrefab.transform.position.y);
             Herz.GetComponent<UnityEngine.UI.Image>().enabled = true;
             Herzen.Add(Herz.GetComponent<UnityEngine.UI.Image>());
+            UpdateHP();
         }
     }
 
