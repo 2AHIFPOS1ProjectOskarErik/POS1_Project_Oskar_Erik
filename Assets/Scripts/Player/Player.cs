@@ -147,6 +147,20 @@ public class Movement : MonoBehaviour
             current_Checkpoint = LoadHelperCode.data.Current_Checkpoint;
             BossAlive = LoadHelperCode.data.BossAlive;
             MinibossAlive = LoadHelperCode.data.MinibossAlive;
+            if (current_Checkpoint == 0)
+            {
+                SceneManager.LoadScene("Tutorial");
+            }
+            if (current_Checkpoint == 1)
+            {
+                SceneManager.LoadScene("Dungeon");
+            }
+            if (current_Checkpoint == 2)
+            {
+                SceneManager.LoadScene("Crystal Caves");
+            }
+            player.transform.position = Checkpoints[current_Checkpoint];
+
         }
     }
         // Update is called once per frame
