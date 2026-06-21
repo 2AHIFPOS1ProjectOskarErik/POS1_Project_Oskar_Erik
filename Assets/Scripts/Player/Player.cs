@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
 using System.Collections;
+using System.IO;
 public class Movement : MonoBehaviour
 {
     public double dmg = 2;
@@ -52,7 +53,9 @@ public class Movement : MonoBehaviour
     //start tutorialvideo code:
     private Animator animator;
     //ende tutorialvideo code:
-
+    private SaveHelper saveHelper;
+    public bool BossAlive = true;
+    public bool MinibossAlive = true;
 
 
     private void Awake()
@@ -526,4 +529,15 @@ public class Movement : MonoBehaviour
         Debug.Log("Strength potion beendet!");
     }
     //ChatGPT code ende
+
+    public void Speichern()
+    {
+        saveHelper = new SaveHelper(PlayerPrefs.GetInt("coin"), hp, maxHP, current_Checkpoint, BossAlive, MinibossAlive);
+        string json = JsonUtility.ToJson(saveHelper); //JsonUtility von ChatGPT da JsonSerializer nicht bzw. sehr kompliziert in Unity funktioniert
+        using (StreamWriter sr = new StreamWriter("save.txt"))
+        {
+            sr.WriteLine(json);
+        }
+
+    }
 }

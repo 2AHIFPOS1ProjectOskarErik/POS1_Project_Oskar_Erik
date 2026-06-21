@@ -37,6 +37,7 @@ public class Boss : MonoBehaviour
     public int moneyReward = 10;
     private float schockwaveamt = 0;
     private bool schockwave = false;
+    private bool isAlive = true;
 
 
     private void Awake()
@@ -71,9 +72,14 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isAlive == false)
+        {
+            hp = 0;
+        }
         if (hp <= 0)
         {
             Die();
+            playercode.BossAlive = false;
         }
         
         if (bossstart == true)
