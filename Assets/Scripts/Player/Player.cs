@@ -80,7 +80,7 @@ public class Movement : MonoBehaviour
         GateBoss2 = GameObject.Find("GateBoss 2");
         MiniBoss = GameObject.Find("Mini Boss");
         boss = GameObject.Find("Boss");
-        GameObject dialogkingobj = GameObject.Find("Thron");
+        GameObject dialogkingobj = GameObject.Find("Dialog King");
         LoadHelper = GameObject.Find("Loadhelper");
         try
         {
