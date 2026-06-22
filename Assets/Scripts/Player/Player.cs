@@ -275,6 +275,11 @@ public class Movement : MonoBehaviour
             SceneManager.LoadScene("Shop");
             transform.position = Übergänge[3];
         }
+        if (collision.gameObject.CompareTag("Shop2") && Keyboard.current.eKey.isPressed)
+        {
+            SceneManager.LoadScene("Shop2");
+            transform.position = Übergänge[3];
+        }
 
         if (collision.gameObject.CompareTag("MiniBossFight"))
         {
@@ -502,6 +507,7 @@ public class Movement : MonoBehaviour
             Debug.Log("Geheilt!");
         }
     }
+    //ChatGPT code anfang
     void UseStrengthPotion()
     {
         int strengthPotions = PlayerPrefs.GetInt("Strength", 0);
@@ -522,6 +528,7 @@ public class Movement : MonoBehaviour
             Debug.Log("stärke potion benutzt");
         }
     }
+    //ChatGPT code ende
     //ChatGPT code anfang
     IEnumerator RemoveStrengthBuff()
     {
@@ -534,4 +541,5 @@ public class Movement : MonoBehaviour
         Debug.Log("Strength potion beendet!");
     }
     //ChatGPT code ende
+
 }
