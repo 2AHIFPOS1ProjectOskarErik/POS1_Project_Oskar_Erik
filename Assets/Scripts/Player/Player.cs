@@ -634,6 +634,7 @@ public class Movement : MonoBehaviour
             {
                 sr.WriteLine(json);
             }
+            string path = Application.persistentDataPath + "/save.txt"; //ChatGPT für .exe
             Debug.Log("Erfolgreich gespeichert");
         }
         catch
