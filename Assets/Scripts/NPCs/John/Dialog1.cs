@@ -52,6 +52,21 @@ public class Dialog1 : MonoBehaviour
 
         }
         if (timer >= 2f && text.text == "Drücke \"Linke Maustaste\" \n um Anzugreifen!")
+        {
+            text.text = "Drücke R um dich zu Heilen!";
+
+            timer = 2f;
+
+        }
+        if (timer >= 2.5f && text.text == "Drücke R um dich zu Heilen!")
+        {
+            text.text = "Drücke R um dich zu Heilen!";
+
+            timer = 2.5f;
+
+        }
+
+        if (timer >= 2.5f && text.text == "Drücke R um dich zu Heilen!")
         { 
             text.text = "";
             return true;
