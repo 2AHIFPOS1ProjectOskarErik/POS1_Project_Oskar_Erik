@@ -33,7 +33,6 @@ public class MiniBoss : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(miniBoss);
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -64,7 +63,7 @@ public class MiniBoss : MonoBehaviour
     void Update()
     {
         
-        if (isAlive == false)
+        if (playercode.MinibossAlive == false)
         {
             hp = 0;
         }
