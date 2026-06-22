@@ -1,1 +1,1 @@
-{"Coins":1960,"Hp":4.0,"MaxHP":5.0,"Current_Checkpoint":1,"BossAlive":true,"MinibossAlive":true}
+{"Coins":2160,"Hp":1.0,"MaxHP":5.0,"Current_Checkpoint":2,"BossAlive":true,"MinibossAlive":false}

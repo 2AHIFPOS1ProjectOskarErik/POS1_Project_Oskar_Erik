@@ -1351,7 +1351,7 @@ GameObject:
   - component: {fileID: 969809358}
   m_Layer: 0
   m_Name: Seil
-  m_TagString: Untagged
+  m_TagString: Seil Caves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2422,7 +2422,7 @@ Transform:
   m_GameObject: {fileID: 1417117873}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -1.04, z: 0}
+  m_LocalPosition: {x: -10.83, y: -1.24, z: 0}
   m_LocalScale: {x: 1, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2465,8 +2465,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   dmg: 2
   dialog1: {fileID: 0}
+  dialogking: {fileID: 0}
   canmove: 1
   waffe1: {fileID: 1064785636}
+  upslash: {fileID: 0}
   player: {fileID: 1417117873}
   hp: 5
   maxHP: 5
@@ -2475,7 +2477,8 @@ MonoBehaviour:
   Checkpoints: []
   current_Checkpoint: 0
   camerafollow: {fileID: 1402128785}
-  _animation: {fileID: 1417117875}
+  BossAlive: 1
+  MinibossAlive: 1
 --- !u!61 &1417117877
 BoxCollider2D:
   m_ObjectHideFlags: 0

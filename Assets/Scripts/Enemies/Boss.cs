@@ -42,7 +42,6 @@ public class Boss : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(boss);
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 

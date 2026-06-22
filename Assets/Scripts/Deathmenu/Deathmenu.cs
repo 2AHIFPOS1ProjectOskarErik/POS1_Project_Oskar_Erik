@@ -29,6 +29,10 @@ public class Deathmenu : MonoBehaviour
         {
             SceneManager.LoadScene("Dungeon");
         } 
+        if (playercode.current_Checkpoint == 2)
+        {
+            SceneManager.LoadScene("Crystal Cave");
+        }
         player.transform.position = playercode.Checkpoints[playercode.current_Checkpoint];
         playercode.HPAnzeige.UpdateHP();
     }
