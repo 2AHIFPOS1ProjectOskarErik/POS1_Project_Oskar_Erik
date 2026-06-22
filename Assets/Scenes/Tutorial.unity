@@ -3200,7 +3200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   player: {fileID: 1193204055}
-  offset: {x: 0, y: 3, z: 0}
+  offset: {x: 0, y: 2, z: 0}
   damping: 0
   camera: {fileID: 519420028}
 --- !u!1 &532597908

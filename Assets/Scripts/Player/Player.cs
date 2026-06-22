@@ -122,13 +122,14 @@ public class Movement : MonoBehaviour
         Übergänge.Add(new Vector2(-4.41f, -1.59f));
         Übergänge.Add(new Vector2(-54.88f, -1.7f));
         //------------------------------------
-        Übergänge.Add(new Vector2(-0.61f, 19.91f));
+        Übergänge.Add(new Vector2(-197.19f, -6.77f));
         Übergänge.Add(new Vector2(-18.18f, 1f));
         //------------------------------------
         Checkpoints = new List<Vector2>();
 
         Checkpoints.Add(new Vector2(-15.12f, -1.76f));
         Checkpoints.Add(new Vector2(-1.64f, -1.04f));
+        Checkpoints.Add(new Vector2(-10.83f, -1.24f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
@@ -157,7 +158,7 @@ public class Movement : MonoBehaviour
             }
             if (current_Checkpoint == 2)
             {
-                SceneManager.LoadScene("Crystal Caves");
+                SceneManager.LoadScene("Crystal Cave");
             }
             player.transform.position = Checkpoints[current_Checkpoint];
 
@@ -293,6 +294,11 @@ public class Movement : MonoBehaviour
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
         }
+        if (collision.gameObject.CompareTag("Seil Caves") && Keyboard.current.eKey.isPressed)
+        {
+            SceneManager.LoadScene("Dungeon");
+            transform.position = Übergänge[5];
+        }
 
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
@@ -381,6 +387,12 @@ public class Movement : MonoBehaviour
             transform.position = Übergänge[4];
         }
 
+        if (collision.gameObject.CompareTag("Seil Caves") && Keyboard.current.eKey.isPressed)
+        {
+            SceneManager.LoadScene("Dungeon");
+            transform.position = Übergänge[5];
+        }
+
         if (collision.gameObject.CompareTag("MiniBossFight"))
         {
             canjump = true;
@@ -398,6 +410,7 @@ public class Movement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Übergang Caves"))
         {
+            current_Checkpoint = 2;
             SceneManager.LoadScene("Crystal Cave");
             player.transform.position = new Vector2(0f, 0f);
         }
