@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static UnityEngine.GraphicsBuffer;
 using System.Collections;
+using System.IO;
 public class Movement : MonoBehaviour
 {
     public double dmg = 2;
@@ -20,6 +21,7 @@ public class Movement : MonoBehaviour
     bool canjump;
     float timer;
     public Dialog1 dialog1;
+    private GameObject king;
     public king dialogking;
     public bool canmove = true;
     bool dialogfin = false;
@@ -52,9 +54,11 @@ public class Movement : MonoBehaviour
     //start tutorialvideo code:
     private Animator animator;
     //ende tutorialvideo code:
-
-
-
+    private SaveHelper saveHelper;
+    public bool BossAlive = true;
+    public bool MinibossAlive = true;
+    private GameObject LoadHelper;
+    private LoadHelper LoadHelperCode;
     private void Awake()
     {
         if (instance == null)
@@ -77,8 +81,9 @@ public class Movement : MonoBehaviour
         GateBoss2 = GameObject.Find("GateBoss 2");
         MiniBoss = GameObject.Find("Mini Boss");
         boss = GameObject.Find("Boss");
-        GameObject dialogkingobj = GameObject.Find("Thron");
-        
+        GameObject king = GameObject.Find("Thron");
+        LoadHelper = GameObject.Find("Loadhelper");
+        king = GameObject.Find("Dialog King");
         try
         {
             miniBossCode = MiniBoss.GetComponent<MiniBoss>();
@@ -91,9 +96,14 @@ public class Movement : MonoBehaviour
         catch { }
         try
         {
-            dialogking = dialogkingobj.GetComponent<king>();
+            dialogking = king.GetComponent<king>();
         }
         catch { }
+        try
+        {
+            LoadHelperCode = LoadHelper.GetComponent<LoadHelper>();
+        }
+        catch {}
     }
 
 
@@ -118,22 +128,49 @@ public class Movement : MonoBehaviour
         Übergänge.Add(new Vector2(-18.18f, 1f));
         //------------------------------------
         Checkpoints = new List<Vector2>();
-        
+
         Checkpoints.Add(new Vector2(-15.12f, -1.76f));
         Checkpoints.Add(new Vector2(-1.64f, -1.04f));
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        
-       
+
+
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
         animator = GetComponent<Animator>();
         camera.orthographicSize = 6f;
-    }
 
-    // Update is called once per frame
+        if (LoadHelperCode.wasLoaded == true)
+        {
+            hp = LoadHelperCode.data.Hp;
+            maxHP = LoadHelperCode.data.MaxHP;
+            current_Checkpoint = LoadHelperCode.data.Current_Checkpoint;
+            BossAlive = LoadHelperCode.data.BossAlive;
+            MinibossAlive = LoadHelperCode.data.MinibossAlive;
+            if (current_Checkpoint == 0)
+            {
+                SceneManager.LoadScene("Tutorial");
+            }
+            if (current_Checkpoint == 1)
+            {
+                SceneManager.LoadScene("Dungeon");
+                try
+                {
+                    miniBossCode = MiniBoss.GetComponent<MiniBoss>();
+                }
+                catch { }
+            }
+            if (current_Checkpoint == 2)
+            {
+                SceneManager.LoadScene("Crystal Caves");
+            }
+            player.transform.position = Checkpoints[current_Checkpoint];
+
+        }
+    }
+        // Update is called once per frame
 
     void Update()
     {
@@ -222,6 +259,8 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Thron"))
         {
+            GameObject king = GameObject.Find("Dialog King");
+            dialogking = king.GetComponent<king>();
             if (collision.gameObject.CompareTag("Floor"))
                 canjump = true;
 
@@ -322,7 +361,24 @@ public class Movement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Thron"))
         {
-            dialogkingfin = false;
+            GameObject king = GameObject.Find("Thron");
+            dialogking = king.GetComponent<king>();
+            if (collision.gameObject.CompareTag("Floor"))
+                canjump = true;
+
+            if (Keyboard.current.eKey.wasPressedThisFrame && dialogkingfin == false)
+            {
+                canmove = false;
+                camera.orthographicSize = 4f;
+                camerafollow.offset = new Vector3(1f, 2f, -10f);
+                dialogkingfin = dialogking.RunDialog();
+            }
+            if (dialogkingfin == true)
+            {
+                canmove = true;
+                camera.orthographicSize = 6f;
+                camerafollow.offset = new Vector3(0f, 4f, -10f);
+            }
         }
 
         if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss") || collision.gameObject.CompareTag("Boss"))
@@ -335,6 +391,8 @@ public class Movement : MonoBehaviour
         {
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[0];
+            
+            
         }
 
 
@@ -542,4 +600,14 @@ public class Movement : MonoBehaviour
     }
     //ChatGPT code ende
 
+    public void Speichern()
+    {
+        saveHelper = new SaveHelper(PlayerPrefs.GetInt("coin"), hp, maxHP, current_Checkpoint, BossAlive, MinibossAlive);
+        string json = JsonUtility.ToJson(saveHelper); //JsonUtility von ChatGPT da JsonSerializer nicht bzw. sehr kompliziert in Unity funktioniert
+        using (StreamWriter sr = new StreamWriter("save.txt"))
+        {
+            sr.WriteLine(json);
+        }
+
+    }
 }

@@ -10,6 +10,7 @@ public class Map : MonoBehaviour
     void Start()
     {
         mapImage.SetActive(false);
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()
