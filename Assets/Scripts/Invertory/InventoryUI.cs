@@ -16,7 +16,6 @@ public class InventoryUI : MonoBehaviour
 
     void Awake()
     {
-        // Singleton-Schutz
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -25,7 +24,6 @@ public class InventoryUI : MonoBehaviour
 
         Instance = this;
 
-        // Objekt zwischen Szenen behalten
         DontDestroyOnLoad(gameObject);
     }
 
