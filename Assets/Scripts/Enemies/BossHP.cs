@@ -30,12 +30,14 @@ public class BossHP : MonoBehaviour
             Herz.transform.position = new Vector2(HerzPrefab.transform.position.x + (i * 5f), HerzPrefab.transform.position.y);
             Herz.GetComponent<UnityEngine.UI.Image>().enabled = true;
             Herzen.Add(Herz.GetComponent<UnityEngine.UI.Image>());
+            
         }
+        Debug.Log("Ins Hauptmenu zuruck gekehrt");
     }
 
     public void UpdateHP()
     {
-
+        Debug.Log("Boss HP geupdated");
         for (int i = 0; i < Herzen.Count; i++)
         {
 
