@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -23,14 +24,17 @@ public class Deathmenu : MonoBehaviour
     {
         if (playercode.current_Checkpoint == 0)
         {
+            Debug.Log("Im Tutorial respawned");
             SceneManager.LoadScene("Tutorial");
         }
         if (playercode.current_Checkpoint == 1)
         {
+            Debug.Log("Im Dungeon respawned");
             SceneManager.LoadScene("Dungeon");
         } 
         if (playercode.current_Checkpoint == 2)
         {
+            Debug.Log("In der Crystal Cave respawned");
             SceneManager.LoadScene("Crystal Cave");
         }
         player.transform.position = playercode.Checkpoints[playercode.current_Checkpoint];
@@ -38,6 +42,9 @@ public class Deathmenu : MonoBehaviour
     }
     public void MainMenu()
     {
+        Debug.Log("Ins Hauptmenu zuruck gekehrt");
         SceneManager.LoadScene("Startmenu");
+        
+
     }
 }

@@ -28,8 +28,12 @@ public class LoadHelper : MonoBehaviour
                 json = sr.ReadLine();
             }
             data = JsonUtility.FromJson<SaveHelper>(json);
+            Debug.Log("Erfolgreich geladen");
         }
-        catch { }
+        catch
+        {
+            Debug.LogWarning("Fehler beim Laden");
+        }
         wasLoaded = true;
         SceneManager.LoadScene("Tutorial");
         

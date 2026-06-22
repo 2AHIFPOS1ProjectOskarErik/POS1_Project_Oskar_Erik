@@ -85,9 +85,10 @@ public class MiniBoss : MonoBehaviour
             miniBoss.SetActive(false);
             bossgate.SetActive(false);
             bossgate2.SetActive(false);
-            Geld_anzeige.Instance.AddMoney(10);
+            Geld_anzeige.Instance.AddMoney(50);
             hpactive = true;
             playercode.MinibossAlive = false;
+            Debug.Log("Miniboss gestorben");
         }
 
         if (bossstart == true)
@@ -95,7 +96,7 @@ public class MiniBoss : MonoBehaviour
             if (hpactive == false)
             {
                 hpcanvas.SetActive(true);
-                
+                Debug.Log("Miniboss HPbar aktiviert");
             }
 
             timerstop += Time.deltaTime;
@@ -109,11 +110,12 @@ public class MiniBoss : MonoBehaviour
                     if (playercode.transform.position.x < transform.position.x)
                     {
                         direction = -1f;
-
+                        Debug.Log("Miniboss läuft nach rechts");
                     }
                     if (playercode.transform.position.x > transform.position.x)
                     {
                         direction = 1f;
+                        Debug.Log("Miniboss läuft nach links");
                     }
                     
                 }
@@ -122,11 +124,13 @@ public class MiniBoss : MonoBehaviour
                     timerMove += Time.deltaTime;
                     if (playercode.transform.position.x < transform.position.x)
                     {
+                        Debug.Log("Miniboss springt nach rechts");
                         direction = 1f;
 
                     }
                     if (playercode.transform.position.x > transform.position.x)
                     {
+                        Debug.Log("Miniboss springt nach links");
                         direction = -1f;
                     }
                     

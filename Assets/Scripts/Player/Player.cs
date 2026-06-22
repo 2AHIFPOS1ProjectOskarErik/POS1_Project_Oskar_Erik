@@ -133,14 +133,14 @@ public class Movement : MonoBehaviour
         camera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-
+        PlayerPrefs.SetInt("coin", 1000);
 
         collider2D = GetComponent<BoxCollider2D>();
         collider2D.offset = new Vector2(-0.6170132f, -0.03940761f);
         rb.freezeRotation = true;
         animator = GetComponent<Animator>();
         camera.orthographicSize = 6f;
-
+        Debug.Log("Player fertig initialisiert");
         if (LoadHelperCode.wasLoaded == true)
         {
             hp = LoadHelperCode.data.Hp;
@@ -161,8 +161,9 @@ public class Movement : MonoBehaviour
                 SceneManager.LoadScene("Crystal Cave");
             }
             player.transform.position = Checkpoints[current_Checkpoint];
-
+            Debug.Log("Player fertig geladen");
         }
+        
     }
         // Update is called once per frame
 
@@ -170,22 +171,30 @@ public class Movement : MonoBehaviour
     {
 
         if (gefangen)
+        {
+            Debug.Log("Player gefangen");
             return;
+        }
+            
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
+            Debug.Log("Healthpotion verwendet");
             UseHealthPotion();
         }
 
         if (Keyboard.current.tKey.wasPressedThisFrame)
         {
+            Debug.Log("Strengthpotion verwendet");
             UseStrengthPotion();
         }
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
+            Debug.Log("Attack ausgeführt");
             Attack();
         }
         if (Keyboard.current.wKey.isPressed && Mouse.current.leftButton.wasPressedThisFrame)
         {
+            Debug.Log("UpAttakc ausgeführt");
             UpAttack();
         }
         if (timeratk >= 0.5)
@@ -210,11 +219,13 @@ public class Movement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Floor"))
         {
+            Debug.Log("Berührt den Boden");
             canjump = true;
             timer = 0;
         }
         else if (collision.gameObject.CompareTag("Wall"))
         {
+            Debug.Log("Berührt die Wand");
             canjump = true;
             timer += Time.deltaTime;
             if (timer >= 1f)
@@ -274,10 +285,12 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Falle"))
         {
+            Debug.Log("Simplen Enemy berührt");
             TakeDamage();
         }
         if (collision.gameObject.CompareTag("baerfalle") && !falleBenutzt)
         {
+            Debug.Log("Barenfalle berührt");
             falleBenutzt = true;
 
             TakeDamage();
@@ -285,35 +298,41 @@ public class Movement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Line of Sight"))
         {
+            Debug.Log("EnemyFollow line of sight betreten");
             EnemyFollow enemyfollowscript = enemyfollow.GetComponent<EnemyFollow>();
             enemyfollowscript.Follow();
         }
 
         if (collision.gameObject.CompareTag("Seil") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle Szene zu Schloss");
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
         }
         if (collision.gameObject.CompareTag("Seil Caves") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle die Szene zu Dungeon");
             SceneManager.LoadScene("Dungeon");
             transform.position = Übergänge[5];
         }
 
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle die Szene zu Dungeon");
             SceneManager.LoadScene("Dungeon");
             current_Checkpoint = 1;
             transform.position = Übergänge[3];
         }
         if (collision.gameObject.CompareTag("Shop") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle die Szene zu Shop");
             SceneManager.LoadScene("Shop");
             transform.position = Übergänge[3];
         }
 
         if (collision.gameObject.CompareTag("MiniBossFight"))
         {
+            Debug.Log("Initialisiere MinibossFight");
             GateBoss.GetComponent<Collider2D>().enabled = true;
             GateBoss.GetComponent<SpriteRenderer>().enabled = true;
             GateBoss2.GetComponent<Collider2D>().enabled = true;
@@ -322,6 +341,7 @@ public class Movement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Bossfight"))
         {
+            Debug.Log("Initialisiere Bossfight");
             GateBoss.GetComponent<Collider2D>().enabled = true;
             GateBoss.GetComponent<SpriteRenderer>().enabled = true;
             GateBoss2.GetComponent<Collider2D>().enabled = true;
@@ -358,12 +378,14 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Simple Enemy") || collision.gameObject.CompareTag("EnemyFollow") || collision.gameObject.CompareTag("Mini Boss") || collision.gameObject.CompareTag("Boss"))
         {
+
             TakeDamage();
         }
 
 
         if (collision.gameObject.CompareTag("Übergang TutSchloss"))
         {
+            Debug.Log("Wechsle die Szene zu Schloss");
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[0];
         }
@@ -371,36 +393,42 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Übergang SchlossTut"))
         {
+            Debug.Log("Wechsle die Szene zu Tutorial");
             SceneManager.LoadScene("Tutorial");
             transform.position = Übergänge[1];
         }
 
         if (collision.gameObject.CompareTag("Brunnen") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle die Szene zu Dungeon");
             SceneManager.LoadScene("Dungeon");
             current_Checkpoint = 1;
             transform.position = Übergänge[3];
         }
         if (collision.gameObject.CompareTag("Seil") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle die Szene zu Schloss");
             SceneManager.LoadScene("Schloss");
             transform.position = Übergänge[4];
         }
 
         if (collision.gameObject.CompareTag("Seil Caves") && Keyboard.current.eKey.isPressed)
         {
+            Debug.Log("Wechsle die Szene zu Dungeon");
             SceneManager.LoadScene("Dungeon");
             transform.position = Übergänge[5];
         }
 
         if (collision.gameObject.CompareTag("MiniBossFight"))
         {
+
             canjump = true;
             MiniBoss.GetComponent<Collider2D>().enabled = true;
             MiniBoss.GetComponent<SpriteRenderer>().enabled = true;
         }
         if (collision.gameObject.CompareTag("Bossfight"))
         {
+            Debug.Log("Bossfight initialisiert");
             GateBoss.GetComponent<Collider2D>().enabled = true;
             GateBoss.GetComponent<SpriteRenderer>().enabled = true;
             GateBoss2.GetComponent<Collider2D>().enabled = true;
@@ -410,6 +438,7 @@ public class Movement : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Übergang Caves"))
         {
+            Debug.Log("Wechle Szene zu Caves");
             current_Checkpoint = 2;
             SceneManager.LoadScene("Crystal Cave");
             player.transform.position = new Vector2(0f, 0f);
@@ -423,12 +452,14 @@ public class Movement : MonoBehaviour
         float move = 0;
         if (Keyboard.current.dKey.isPressed && canmove == true)
         {
+            Debug.Log("Player nach Rechts bewegt");
             animator.SetBool("IsRunning", true);
             transform.localScale = new Vector3(1, 1, 1);
             move = 1;
         }
         if (Keyboard.current.aKey.isPressed && canmove == true)
         {
+            Debug.Log("Player nach Links bewegt");
             animator.SetBool("IsRunning", true);
             move = -1;
             transform.localScale = new Vector3(-1, 1, 1);
@@ -445,6 +476,7 @@ public class Movement : MonoBehaviour
     {
         if (Keyboard.current.sKey.isPressed && canmove == true)
         {
+            Debug.Log("Player Croucht");
             collider2D.size = new Vector2(1f, 1f);
             collider2D.offset = new Vector2(0f, -0.5f);
             
@@ -460,6 +492,7 @@ public class Movement : MonoBehaviour
     {
         if (Keyboard.current.spaceKey.isPressed && canjump == true && canmove == true)
         {
+            Debug.Log("Player springt");
             animator.SetBool("IsJumping", true);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 8f);
             canjump = false;
@@ -473,8 +506,10 @@ public class Movement : MonoBehaviour
 
     public void TakeDamage()
     {
+
         if (timerdmg >= 1f)
         {
+            Debug.Log("Player nimmt Schaden");
             hp -= 1;
             HPAnzeige.UpdateHP();
             timerdmg = 0f;
@@ -486,6 +521,7 @@ public class Movement : MonoBehaviour
 
     public void Die()
     {
+        Debug.Log("Player stirbt");
         SceneManager.LoadScene("Deathscreen");
         hp = maxHP;
         player.transform.position = Checkpoints[current_Checkpoint];
@@ -495,6 +531,7 @@ public class Movement : MonoBehaviour
     {
         if (timeratkcool >= 1f)
         {
+            Debug.Log("Player ist am Angreifen");
             animator.SetBool("IsHitting", true);
             timeratk = 0;
             waffe1.SetActive(true);
@@ -507,8 +544,10 @@ public class Movement : MonoBehaviour
 
     public void UpAttack()
     {
+
         if (timeratkcool >= 1f)
         {
+            Debug.Log("Player greift nach oben an");
             timeratk = 0;
             upslash.SetActive(true);
             timeratkcool = 0;
@@ -521,6 +560,7 @@ public class Movement : MonoBehaviour
 
         if (healthPotions > 0)
         {
+            Debug.Log("Player verwendet Healthpotion");
             healthPotions--;
 
             PlayerPrefs.SetInt("Health", healthPotions);
@@ -543,6 +583,7 @@ public class Movement : MonoBehaviour
 
         if (strengthPotions > 0 && !strengthActive)
         {
+            Debug.Log("Player verwendet Strenghtpotion");
             strengthPotions--;
             PlayerPrefs.SetInt("Strength", strengthPotions);
 
@@ -572,12 +613,20 @@ public class Movement : MonoBehaviour
 
     public void Speichern()
     {
-        saveHelper = new SaveHelper(PlayerPrefs.GetInt("coin"), hp, maxHP, current_Checkpoint, BossAlive, MinibossAlive);
-        string json = JsonUtility.ToJson(saveHelper); //JsonUtility von ChatGPT da JsonSerializer nicht bzw. sehr kompliziert in Unity funktioniert
-        using (StreamWriter sr = new StreamWriter("save.txt"))
+        try
         {
-            sr.WriteLine(json);
+            saveHelper = new SaveHelper(PlayerPrefs.GetInt("coin"), hp, maxHP, current_Checkpoint, BossAlive, MinibossAlive);
+            string json = JsonUtility.ToJson(saveHelper); //JsonUtility von ChatGPT da JsonSerializer nicht bzw. sehr kompliziert in Unity funktioniert
+            using (StreamWriter sr = new StreamWriter("save.txt"))
+            {
+                sr.WriteLine(json);
+            }
+            Debug.Log("Erfolgreich gespeichert");
         }
-
+        catch
+        {
+            Debug.LogWarning("Speichern fehlgeschlagen");
+        }
+        
     }
 }
