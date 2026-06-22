@@ -1093,7 +1093,7 @@ SpriteRenderer:
   m_Size: {x: 7.82, y: 10.19}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &171800635
@@ -2347,7 +2347,7 @@ SpriteRenderer:
   m_Size: {x: 7.41, y: 8.07}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &441771419
@@ -3477,7 +3477,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 15}
+  m_Size: {x: 10, y: 25}
   m_EdgeRadius: 0
 --- !u!212 &708421425
 SpriteRenderer:
@@ -5913,7 +5913,7 @@ BoxCollider2D:
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 75, y: 5}
+  m_Size: {x: 60, y: 5}
   m_EdgeRadius: 0
 --- !u!212 &1502707861
 SpriteRenderer:
