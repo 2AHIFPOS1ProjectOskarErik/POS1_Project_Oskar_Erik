@@ -432,15 +432,28 @@ public class Movement : MonoBehaviour
     {
         if (Keyboard.current.sKey.isPressed && canmove == true)
         {
+            if ((Keyboard.current.aKey.isPressed || Keyboard.current.dKey.isPressed )&& canmove == true )
+            {
             collider2D.size = new Vector2(1f, 1f);
             collider2D.offset = new Vector2(0f, -0.5f);
-            
+            animator.SetBool("IsWalking", true);
+            }
+            else
+            {
+                collider2D.size = new Vector2(1f, 1f);
+                collider2D.offset = new Vector2(0f, -0.5f);
+                animator.SetBool("isSneaking", true);
+                animator.SetBool("IsWalking", false);
+            }
+
             
         }
         else
         {
             collider2D.size = new Vector2(1f, 2f);
             collider2D.offset = new Vector2(0f, 0f);
+            animator.SetBool("isSneaking", false);
+            animator.SetBool("IsWalking", false);
         }
     }
     public void Jump()
