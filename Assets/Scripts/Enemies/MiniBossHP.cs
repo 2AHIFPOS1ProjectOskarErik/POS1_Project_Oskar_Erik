@@ -32,11 +32,12 @@ public class MiniBossHP : MonoBehaviour
             Herz.GetComponent<UnityEngine.UI.Image>().enabled = true;
             Herzen.Add(Herz.GetComponent<UnityEngine.UI.Image>());
         }
+        Debug.Log("Miniboss HPbar initialisiert");
     }
 
     public void UpdateHP()
     {
-
+        Debug.Log("Miniboss HPbar geupdated");
         for (int i = 0; i < Herzen.Count; i++)
         {
 

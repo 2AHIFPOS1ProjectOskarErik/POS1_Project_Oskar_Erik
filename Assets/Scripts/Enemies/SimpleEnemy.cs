@@ -53,6 +53,7 @@ public class SimpleEnemy : MonoBehaviour
             enemy.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
             
+            Debug.Log("Simple Enemy gestorben");
         }
     }
 
@@ -66,6 +67,7 @@ public class SimpleEnemy : MonoBehaviour
                 // ChatGPT code anfang für die Animation
                 transform.localScale = new Vector3(-1, 1, 1);
                 // ChatGPT code ende
+                Debug.Log("Enemy lauft nach links");
             }
             else if (direction == -1f)
             {
@@ -73,6 +75,7 @@ public class SimpleEnemy : MonoBehaviour
                 // ChatGPT code anfang für die Animation
                 transform.localScale = new Vector3(1, 1, 1);
                 // ChatGPT code ende
+                Debug.Log("Enemy lauft nach rechts");
             }
         }
     }
@@ -82,6 +85,7 @@ public class SimpleEnemy : MonoBehaviour
         if (other.CompareTag("Weapon 1"))
         {
             hp -= playercode.dmg;
+            Debug.Log("Enemy nimmt Schaden");
             if (player.transform.position.x > enemy.transform.position.x)
             {
                 direction = -1;

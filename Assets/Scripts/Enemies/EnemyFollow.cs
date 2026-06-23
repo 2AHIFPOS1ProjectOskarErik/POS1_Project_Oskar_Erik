@@ -54,6 +54,7 @@ public class EnemyFollow : MonoBehaviour
             enemy.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
             
+            Debug.Log("EnemyFollow gestorben");
         }
     }
 
@@ -86,6 +87,7 @@ public class EnemyFollow : MonoBehaviour
         {
             hp -= playercode.dmg;
             rb.linearVelocity = new Vector2(8f, 5f);
+            Debug.Log("EnemyFollow nimmt Schaden");
         }
     }
 
@@ -106,5 +108,6 @@ public class EnemyFollow : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
             // ChatGPT code ende
         }
+        Debug.Log("EnemyFollow folgt Spieler");
     }
 }

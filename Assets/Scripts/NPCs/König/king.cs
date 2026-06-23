@@ -25,12 +25,13 @@ public class king : MonoBehaviour
         {
             text.text = "Oh holder Ritter, tritt frohen Mutes hinab in die Tiefen des Kerkers!";
             timer = 0f;
+            Debug.Log("King Dialog 1 ausgeführt");
 
         }
         if (timer >= 0.5f && text.text == "Oh holder Ritter, tritt frohen Mutes hinab in die Tiefen des Kerkers!")
         {
             text.text = "Den Eingang findest du beim Brunnen am Marktplatz";
-
+            Debug.Log("King Dialog beendet");
             timer = 0.5f;
             return true;
 

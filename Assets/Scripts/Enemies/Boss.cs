@@ -90,11 +90,13 @@ public class Boss : MonoBehaviour
             timerAtk1 += Time.deltaTime;
             if (timerAtk1 >= 1.5f)
             {
+                Debug.Log("Boss hat Attacke 2 Beendet");
                 Atk1.SetActive(false);
             }
             timerAtk2 += Time.deltaTime;
             if (timerAtk2 >= 1.5f)
             {
+                Debug.Log("Boss hat Attacke 3 beendet");
                 Atk2Shockwave.SetActive(false);
             }
 
@@ -104,16 +106,19 @@ public class Boss : MonoBehaviour
                 Attacks = GetRandatk();
                 if (Attacks == 1)
                 {
+                    Debug.Log("Boss hat Attacke 1 gestartet");
                     Shoot();
                     timerstop = 0f;
                 }
                 if (Attacks == 2)
                 {
+                    Debug.Log("Boss hat Attacke 2 gestartet");
                     Swing();
                     timerstop = 0f;
                 }
                 if (Attacks == 3)
                 {
+                    Debug.Log("Boss hat Attacke 3 gestartet");
                     Swing2Shockwave();
                     timerstop = 0f;
                 }
@@ -146,6 +151,7 @@ public class Boss : MonoBehaviour
 
         if (other.CompareTag("Weapon 1"))
         {
+            Debug.Log("Boss hat Schaden genommen");
             hp -= playercode.dmg;
             rb.linearVelocity = new Vector2(8f, 5f);
             hpcode.UpdateHP();
@@ -154,7 +160,6 @@ public class Boss : MonoBehaviour
 
     private int GetRandatk()
     {
-        
         System.Random rand = new System.Random();
         return rand.Next(1,4);
     }
@@ -199,6 +204,7 @@ public class Boss : MonoBehaviour
     {
         if (hp <= 0)
         {
+            Debug.Log("Boss ist gestorben");
             hpcanvas.SetActive(false);
             boss.SetActive(false);
             Geld_anzeige.Instance.AddMoney(1000);

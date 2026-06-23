@@ -21,9 +21,11 @@ public class FileLogger
 
     private static void HandleLog(string logString, string stackTrace, LogType type)
     {
-        if (initiated)
-        {
-            File.AppendAllText(filePath, $"{stackTrace}, [{type}]: {logString}");
-        }
+        
+        File.AppendAllText(
+            filePath,
+            $"[{System.DateTime.Now:HH:mm:ss}] [{type}] {logString}\n"
+        );
+        
     }
 }
