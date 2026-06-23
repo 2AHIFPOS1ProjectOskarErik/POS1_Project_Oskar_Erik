@@ -189,7 +189,7 @@ public class Boss : MonoBehaviour
     private void Shoot()
     {
         bulletinstance =  Instantiate(bullet);
-        bulletinstance.transform.position = new Vector3(transform.position.x, transform.position.y - 2f, transform.position.z);
+        bulletinstance.transform.position = new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z);
         // ChatGPT Prompt: wie kann ich machen das ein gameobject mit einem anderen spezifischen Gameobject NICHT interagiert?
         Physics2D.IgnoreCollision(
         bulletinstance.GetComponent<Collider2D>(),

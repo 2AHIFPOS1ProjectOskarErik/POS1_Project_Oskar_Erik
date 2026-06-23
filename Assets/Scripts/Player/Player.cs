@@ -141,28 +141,32 @@ public class Movement : MonoBehaviour
         animator = GetComponent<Animator>();
         camera.orthographicSize = 6f;
         Debug.Log("Player fertig initialisiert");
-        if (LoadHelperCode.wasLoaded == true)
+        try
         {
-            hp = LoadHelperCode.data.Hp;
-            maxHP = LoadHelperCode.data.MaxHP;
-            current_Checkpoint = LoadHelperCode.data.Current_Checkpoint;
-            BossAlive = LoadHelperCode.data.BossAlive;
-            MinibossAlive = LoadHelperCode.data.MinibossAlive;
-            if (current_Checkpoint == 0)
+            if (LoadHelperCode.wasLoaded == true)
             {
-                SceneManager.LoadScene("Tutorial");
+                hp = LoadHelperCode.data.Hp;
+                maxHP = LoadHelperCode.data.MaxHP;
+                current_Checkpoint = LoadHelperCode.data.Current_Checkpoint;
+                BossAlive = LoadHelperCode.data.BossAlive;
+                MinibossAlive = LoadHelperCode.data.MinibossAlive;
+                if (current_Checkpoint == 0)
+                {
+                    SceneManager.LoadScene("Tutorial");
+                }
+                if (current_Checkpoint == 1)
+                {
+                    SceneManager.LoadScene("Dungeon");
+                }
+                if (current_Checkpoint == 2)
+                {
+                    SceneManager.LoadScene("Crystal Cave");
+                }
+                player.transform.position = Checkpoints[current_Checkpoint];
+                Debug.Log("Player fertig geladen");
             }
-            if (current_Checkpoint == 1)
-            {
-                SceneManager.LoadScene("Dungeon");
-            }
-            if (current_Checkpoint == 2)
-            {
-                SceneManager.LoadScene("Crystal Cave");
-            }
-            player.transform.position = Checkpoints[current_Checkpoint];
-            Debug.Log("Player fertig geladen");
         }
+        catch { }
         
     }
         // Update is called once per frame
@@ -242,8 +246,6 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("NPC John"))
         {
-            if (collision.gameObject.CompareTag("Floor"))
-
             if (Keyboard.current.eKey.isPressed && dialogfin == false)
             {
                 canmove = false;
@@ -366,7 +368,6 @@ public class Movement : MonoBehaviour
         {
 
             if (collision.gameObject.CompareTag("Floor"))
-
                 canjump = true;
             dialog1.text.text = "Druecke \"E\" um mit mir zu Interagieren!";
             dialogfin = false;

@@ -7,6 +7,7 @@ public class Deathmenu : MonoBehaviour
 {
 
     private GameObject player;
+    private GameObject Maincam;
     private Movement playercode;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
@@ -17,6 +18,7 @@ public class Deathmenu : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         player = GameObject.Find("Player");
+        Maincam = GameObject.Find("Main Camera");
         playercode = player.GetComponent<Movement>();
     }
 
@@ -46,6 +48,9 @@ public class Deathmenu : MonoBehaviour
     public void MainMenu()
     {
         Debug.Log("Ins Hauptmenu zuruck gekehrt");
+        Destroy(player);
+        Destroy(Maincam);
+        playercode.HPAnzeige.UpdateHP();
         SceneManager.LoadScene("Startmenu");
         Debug.Log("Startmenu geladen");
         

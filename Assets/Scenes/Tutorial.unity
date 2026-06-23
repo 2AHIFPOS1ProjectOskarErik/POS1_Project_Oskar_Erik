@@ -8149,6 +8149,7 @@ GameObject:
   - component: {fileID: 1126456040}
   - component: {fileID: 1126456039}
   - component: {fileID: 1126456038}
+  - component: {fileID: 1126456042}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -8239,6 +8240,19 @@ RectTransform:
   m_AnchoredPosition: {x: 4.42, y: 0.13}
   m_SizeDelta: {x: 7.6761, y: 1.8947}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1126456042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126456037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialog1
+  text: {fileID: 1468571222}
 --- !u!1 &1130770274
 GameObject:
   m_ObjectHideFlags: 0
@@ -11034,7 +11048,6 @@ GameObject:
   - component: {fileID: 1766129804}
   - component: {fileID: 1766129803}
   - component: {fileID: 1766129805}
-  - component: {fileID: 1766129806}
   - component: {fileID: 1766129807}
   m_Layer: 0
   m_Name: NPC "John"
@@ -11162,19 +11175,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4, y: 3.9662402}
   m_EdgeRadius: 0
---- !u!114 &1766129806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1766129802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4702d9cd60a0f3849a1f6beb67554eca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Dialog1
-  text: {fileID: 1468571222}
 --- !u!95 &1766129807
 Animator:
   serializedVersion: 7
