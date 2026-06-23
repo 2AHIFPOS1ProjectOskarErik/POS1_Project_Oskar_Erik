@@ -82,6 +82,8 @@ public class Boss : MonoBehaviour
         {
             Die();
             playercode.BossAlive = false;
+            SceneManager.LoadScene("Endscreen");
+            
         }
         
         if (bossstart == true)
