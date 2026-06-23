@@ -1,261 +1,3431 @@
-[08:39:00] [Log] [i] Logger initialized
-[08:39:00] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
-[08:39:00] [Log] Player fertig initialisiert
-[08:39:00] [Log] Player fertig geladen
-[08:39:00] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
-[08:39:00] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
-[08:39:00] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
-[08:39:00] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Attack ausgeführt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Enemy lauft nach links
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:01] [Log] Berührt den Boden
-[08:39:01] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Enemy lauft nach links
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Player nach Links bewegt
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:02] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Player nach Rechts bewegt
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Enemy lauft nach rechts
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:03] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Attack ausgeführt
-[08:39:04] [Log] Player ist am Angreifen
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Player nach Rechts bewegt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Attack ausgeführt
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:04] [Log] Berührt den Boden
-[08:39:05] [Log] Enemy lauft nach rechts
-[08:39:05] [Log] Enemy lauft nach links
-[08:39:06] [Log] Attack ausgeführt
-[08:39:06] [Log] Player ist am Angreifen
-[08:39:07] [Log] Enemy lauft nach rechts
-[08:39:08] [Log] Healthpotion verwendet
-[08:39:08] [Log] Player verwendet Healthpotion
-[08:39:08] [Log] Enemy lauft nach links
-[08:39:10] [Log] Enemy lauft nach links
-[08:39:10] [Log] Strengthpotion verwendet
-[08:39:10] [Log] Player verwendet Strenghtpotion
-[08:39:11] [Log] Attack ausgeführt
-[08:39:11] [Log] Player ist am Angreifen
-[08:39:11] [Log] Enemy lauft nach rechts
-[08:39:12] [Log] Enemy lauft nach rechts
-[08:39:13] [Log] Attack ausgeführt
-[08:39:13] [Log] Test
-[08:39:14] [Log] Attack ausgeführt
-[08:39:14] [Log] Spiel geschlossen
+[20:38:36] [Log] [i] Logger initialized
+[20:38:36] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[20:38:36] [Log] Player fertig initialisiert
+[20:38:36] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Attack ausgeführt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Berührt den Boden
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:37] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Attack ausgeführt
+[20:38:38] [Log] Player ist am Angreifen
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Enemy lauft nach links
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player springt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Berührt den Boden
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player springt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Attack ausgeführt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:38] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Attack ausgeführt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Attack ausgeführt
+[20:38:39] [Log] Player ist am Angreifen
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Attack ausgeführt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Attack ausgeführt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Berührt den Boden
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player springt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Berührt den Boden
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player springt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Attack ausgeführt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Attack ausgeführt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:39] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Attack ausgeführt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Rechts bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Enemy lauft nach rechts
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:40] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Rechts bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player springt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Berührt den Boden
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player springt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:41] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Attack ausgeführt
+[20:38:42] [Log] Player ist am Angreifen
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Attack ausgeführt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Attack ausgeführt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Attack ausgeführt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt den Boden
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt den Boden
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Berührt den Boden
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Attack ausgeführt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Berührt die Wand
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:42] [Log] Player springt
+[20:38:42] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Berührt die Wand
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player springt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Enemy lauft nach links
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:43] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Berührt den Boden
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player springt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Berührt den Boden
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player springt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:44] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Berührt den Boden
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player springt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Attack ausgeführt
+[20:38:45] [Log] Player ist am Angreifen
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Attack ausgeführt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Attack ausgeführt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:45] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Attack ausgeführt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Attack ausgeführt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Enemy lauft nach rechts
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Berührt den Boden
+[20:38:46] [Log] Player nach Links bewegt
+[20:38:46] [Log] Player springt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Berührt den Boden
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player springt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:47] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Berührt den Boden
+[20:38:48] [Log] Player nach Links bewegt
+[20:38:48] [Log] Player springt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Berührt den Boden
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player springt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Enemy lauft nach links
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Berührt den Boden
+[20:38:49] [Log] Berührt den Boden
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player springt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Berührt den Boden
+[20:38:49] [Log] Berührt den Boden
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player springt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Berührt den Boden
+[20:38:49] [Log] Player nach Links bewegt
+[20:38:49] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Berührt den Boden
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player springt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:50] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:51] [Log] Berührt den Boden
+[20:38:51] [Log] Enemy lauft nach rechts
+[20:38:51] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Berührt den Boden
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Berührt den Boden
+[20:38:52] [Log] Wechsle die Szene zu Schloss
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Berührt den Boden
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Berührt den Boden
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Berührt den Boden
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Berührt den Boden
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:52] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Berührt den Boden
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:53] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Berührt den Boden
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:54] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Berührt den Boden
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:55] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Berührt den Boden
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:56] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Berührt den Boden
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:57] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Berührt den Boden
+[20:38:58] [Log] Wechsle die Szene zu Dungeon
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[20:38:58] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[20:38:58] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[20:38:58] [Warning] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+[20:38:58] [Log] Miniboss HPbar initialisiert
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:58] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Player nach Rechts bewegt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player springt
+[20:38:59] [Log] Berührt den Boden
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player springt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Enemy lauft nach links
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:38:59] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Enemy lauft nach links
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Rechts bewegt
+[20:39:00] [Log] Player nach Rechts bewegt
+[20:39:00] [Log] Player nach Rechts bewegt
+[20:39:00] [Log] Player nach Rechts bewegt
+[20:39:00] [Log] Player nach Rechts bewegt
+[20:39:00] [Log] Player nach Rechts bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:00] [Log] Player nach Links bewegt
+[20:39:01] [Log] Attack ausgeführt
+[20:39:01] [Log] Player ist am Angreifen
+[20:39:01] [Log] Test
+[20:39:02] [Log] Attack ausgeführt
+[20:39:02] [Log] Spiel geschlossen

@@ -74,7 +74,7 @@ public class Dialog1 : MonoBehaviour
 
         }
 
-        if (timer >= 3f && text.text == "Drücke R um dich zu Heilen!")
+        if (timer >= 3.5f && text.text == "Drücke R um dich zu Heilen!")
         {
             Debug.Log("John Dialog beendet");
             text.text = "";

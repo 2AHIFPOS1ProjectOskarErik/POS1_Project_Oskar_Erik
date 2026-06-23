@@ -3,6 +3,7 @@ using System.IO;
 
 public class FileLogger
 {
+    // ChatGPT code Anfang
     static public string filePath;
     static private bool initiated = false;
     public static void Init()
@@ -28,4 +29,5 @@ public class FileLogger
         );
         
     }
+    // ChatGPT code Ende
 }
