@@ -41,7 +41,7 @@ public class InventoryUI : MonoBehaviour
             Keyboard.current.tabKey.wasPressedThisFrame)
         {
             isOpen = !isOpen;
-            Debug.Log("Inventory geöfnet: ");
+            
             if (inventoryPanel != null)
                 inventoryPanel.SetActive(isOpen);
         }
