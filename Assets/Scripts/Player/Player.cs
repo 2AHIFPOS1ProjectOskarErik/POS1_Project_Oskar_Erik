@@ -243,7 +243,6 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.CompareTag("NPC John"))
         {
             if (collision.gameObject.CompareTag("Floor"))
-                canjump = true;
 
             if (Keyboard.current.eKey.isPressed && dialogfin == false)
             {
@@ -251,6 +250,7 @@ public class Movement : MonoBehaviour
                 camera.orthographicSize = 4f;
                 camerafollow.offset = new Vector3(1f, 2f, -10f);
                 dialogfin = dialog1.RunDialog();
+                Debug.Log("JohnDialog gestartet");
             }
             if (dialogfin == true)
             {
@@ -527,7 +527,6 @@ public class Movement : MonoBehaviour
             HPAnzeige.UpdateHP();
             timerdmg = 0f;
         }
-
     }
 
 
@@ -548,6 +547,7 @@ public class Movement : MonoBehaviour
             animator.SetBool("IsHitting", true);
             timeratk = 0;
             waffe1.SetActive(true);
+        
             timeratkcool = 0;
 
 
@@ -587,7 +587,6 @@ public class Movement : MonoBehaviour
 
             InventoryUI.Instance.UpdateTexts();
 
-            Debug.Log("Geheilt!");
         }
     }
     void UseStrengthPotion()
@@ -608,7 +607,6 @@ public class Movement : MonoBehaviour
 
             StartCoroutine(RemoveStrengthBuff());
 
-            Debug.Log("stärke potion benutzt");
         }
     }
     //ChatGPT code anfang
@@ -620,7 +618,7 @@ public class Movement : MonoBehaviour
 
         strengthActive = false;
 
-        Debug.Log("Strength potion beendet!");
+
     }
     //ChatGPT code ende
 

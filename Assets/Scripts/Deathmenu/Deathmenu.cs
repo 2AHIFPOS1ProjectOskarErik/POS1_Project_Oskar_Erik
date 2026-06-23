@@ -26,16 +26,19 @@ public class Deathmenu : MonoBehaviour
         {
             Debug.Log("Im Tutorial respawned");
             SceneManager.LoadScene("Tutorial");
+            Debug.Log("Tutorial geladen");
         }
         if (playercode.current_Checkpoint == 1)
         {
             Debug.Log("Im Dungeon respawned");
             SceneManager.LoadScene("Dungeon");
+            Debug.Log("Dungeon geladen");
         } 
         if (playercode.current_Checkpoint == 2)
         {
             Debug.Log("In der Crystal Cave respawned");
             SceneManager.LoadScene("Crystal Cave");
+            Debug.Log("Crystal Cave geladen");
         }
         player.transform.position = playercode.Checkpoints[playercode.current_Checkpoint];
         playercode.HPAnzeige.UpdateHP();
@@ -44,6 +47,7 @@ public class Deathmenu : MonoBehaviour
     {
         Debug.Log("Ins Hauptmenu zuruck gekehrt");
         SceneManager.LoadScene("Startmenu");
+        Debug.Log("Startmenu geladen");
         
 
     }

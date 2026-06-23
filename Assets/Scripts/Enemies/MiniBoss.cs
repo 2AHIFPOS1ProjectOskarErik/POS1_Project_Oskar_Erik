@@ -66,6 +66,7 @@ public class MiniBoss : MonoBehaviour
         if (playercode.MinibossAlive == false)
         {
             hp = 0;
+            
         }
         if (timerMove > 1.5f)
         {

@@ -52,6 +52,7 @@ public class SimpleEnemy : MonoBehaviour
         {
             enemy.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
+            
             Debug.Log("Simple Enemy gestorben");
         }
     }

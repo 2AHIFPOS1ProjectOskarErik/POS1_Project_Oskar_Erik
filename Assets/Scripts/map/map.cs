@@ -9,6 +9,7 @@ public class Map : MonoBehaviour
 
     void Start()
     {
+        //ChatGPT code anfang Prompt: verschöner mir das und mach es übersichtlicher
         if (instance != null && instance != this)
         {
             Destroy(gameObject);
@@ -18,6 +19,7 @@ public class Map : MonoBehaviour
         instance = this;
         mapImage.SetActive(false);
         DontDestroyOnLoad(gameObject);
+        //ChatGPT code ende
     }
 
     void Update()

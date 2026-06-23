@@ -17,6 +17,8 @@
     - [4.1 Animationen](#41-animationen)
     - [4.2 NPC dialog](#42-npc-dialog)
     - [4.3 Erik wir bei Contributors nicht angezeigt](#43-erik-wir-bei-contributors-nicht-angezeigt)
+    - [4.4 Gameengine war ungewohnt](#44-gameengine-war-ungewohnt)
+    - [4.5 Koruptet File](#45-koruptet-file)
 
 ---
 
@@ -52,11 +54,11 @@ Die folgende Tabelle zeigt alle geplanten Features, deren Issue-Nummern und den 
 | 9 | Miniboss | #13 | Ende Mai | ✅ Abgeschlossen |
 | 10 | Map | #16 | Ende Mai – Anfang Juni | ✅ Abgeschlossen |
 | 11 | Checkpoint | #28 | Anfang Juni | ✅ Abgeschlossen |
-| 12 | Boss | #12 | Anfang Juni | 🔄 In Arbeit |
-| 13 | Assets | #10 | Mai – Anfang Juni | 🔄 In Arbeit  |
-| 14 | Ending | #18 | Anfang Juni | 🔄 In Arbeit |
-| 15 | Spei... | #51 | – | 🔄 In Arbeit  |
-| 16 | Logg... | #53 | – | 🔄 In Arbeit |
+| 12 | Boss | #12 | Anfang Juni | ✅ Abgeschlossen |
+| 13 | Assets | #10 | Mai – Anfang Juni | ✅ Abgeschlossen  |
+| 14 | Ending | #18 | Anfang Juni | ✅ Abgeschlossen |
+| 15 | Spei... | #51 | – | ✅ Abgeschlossen  |
+| 16 | Logg... | #53 | – | ✅ Abgeschlossen |
 
 ---
 
@@ -102,7 +104,17 @@ Die folgende Tabelle zeigt alle geplanten Features, deren Issue-Nummern und den 
 | 9 | Juni |  Minibossbugfix anfang|HealthUp fertiggestellt 
 | 11 | Juni | Miniboss funktioniert jetzt auch wenn man im Tutorial spawnt | Spawn weiter verschönert und  
 | 12 | Juni | game ausfürbar mit .exe gemacht | Projektdokumentation
-
+| 13 | Juni | Upslash und König dialog angefangen |Tutorial Gegener aniemiert
+| 14 | Juni |  Upslash und König dialog weitergemacht | logger angefangen
+| 15 | Juni |  Upslash und König dialog weitergemacht | Bugfixing/Verschönern
+| 16 | Juni | Upslash und König dialog fertig|Bugfixing/Verschönern
+| 17 | Juni | Mergeconflict gelösed |Bugfixing/Verschönern
+| 18 | Juni | Mergeconflict gelösed| logger erstellt 
+| 19 | Juni | Mergeconflict fertig gelösed|dugeon angefangen verschönern
+| 20 | Juni | speichern laden angefangen |dugeon zu ende verschönern
+| 21 | Juni |speichern laden fertig | schloss fertig gestellt
+| 22 | Juni | loggen und biúggfixen |endscreen und options angefangen und alles nochmal verschönert wegen korupter File
+| 23 | Juni | Präsi und Dokumentation |endscreen und options fertig
 ## 4. Stolpersteine & Lösungen
 
 
@@ -141,3 +153,9 @@ obwohl er auch admin ist . |
 |---|---|
 | **Problem** | Wir beide haben zum ersten Mal mit Unity gearbeitet |
 | **Lösung** | Tutorials anschauen und uns Befehle von KI erklären lassen |
+
+### 4.5 Koruptet File
+| | |
+|---|---|
+| **Problem** | Koruptet File im schloss aufgeträten welches es komplet lösten und das spiel nicht starten liesen |
+| **Lösung** | letzter funktionierende commit benutzt welcher dazu fürte das 2 Tage an arbeit verloren gingen |
