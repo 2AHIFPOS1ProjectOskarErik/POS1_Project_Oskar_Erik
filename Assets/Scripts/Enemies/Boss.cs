@@ -93,6 +93,7 @@ public class Boss : MonoBehaviour
             if (timerAtk1 >= 1.5f)
             {
                 Debug.Log("Boss hat Attacke 2 Beendet");
+
                 Atk1.SetActive(false);
             }
             timerAtk2 += Time.deltaTime;
@@ -110,6 +111,9 @@ public class Boss : MonoBehaviour
                 {
                     Debug.Log("Boss hat Attacke 1 gestartet");
                     Shoot();
+                    animator.SetBool("IsAtacking", true);
+                    animator.SetBool("IsWalking", false);
+                    animator.SetBool("IsAttcking2", false);
                     timerstop = 0f;
                 }
                 if (Attacks == 2)
@@ -117,12 +121,18 @@ public class Boss : MonoBehaviour
                     Debug.Log("Boss hat Attacke 2 gestartet");
                     Swing();
                     timerstop = 0f;
+                    animator.SetBool("IsAttcking2", true);
+                    animator.SetBool("IsWalking", false);
+                    animator.SetBool("IsAtacking", false);
                 }
                 if (Attacks == 3)
                 {
                     Debug.Log("Boss hat Attacke 3 gestartet");
                     Swing2Shockwave();
                     timerstop = 0f;
+                    animator.SetBool("IsAttcking2", true);
+                    animator.SetBool("IsWalking", false);
+                    animator.SetBool("IsAtacking", false);
                 }
             }
             
@@ -138,11 +148,15 @@ public class Boss : MonoBehaviour
             if (direction > 0f)
             {
                 direction = direction * (-1);
+                animator.SetBool("IsAttcking2", false);
+                animator.SetBool("IsAtacking", false);
                 animator.SetBool("IsWalking", true);
             }
             else if (direction < 0f)
             {
                 direction = direction * (-1);
+                animator.SetBool("IsAttcking2", false);
+                animator.SetBool("IsAtacking", false);
                 animator.SetBool("IsWalking", true);
             }
         }
@@ -169,7 +183,7 @@ public class Boss : MonoBehaviour
     private void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x * direction, 10f);
-        animator.SetBool("IsJumping", true);
+
     }
 
     private void Shoot()
@@ -183,14 +197,14 @@ public class Boss : MonoBehaviour
         );
         // Ende ChatGPT
         bulletinstance.SetActive(true);
-        animator.SetBool("IsAtacking", true);
+
     }
 
     private void Swing()
     {
         timerAtk1 = 0f;
         Atk1.SetActive(true);
-        animator.SetBool("IsAttcking2", true);
+
     }
 
     private void Swing2Shockwave()
@@ -199,7 +213,7 @@ public class Boss : MonoBehaviour
         timerSchockwave = 0f;
         Atk2Shockwave.SetActive(true);   
         schockwave = true;
-        animator.SetBool("IsAttcking2", true);
+
     }
 
     public void Die()
@@ -211,7 +225,7 @@ public class Boss : MonoBehaviour
             boss.SetActive(false);
             Geld_anzeige.Instance.AddMoney(1000);
             hpactive = true;
-            animator.SetBool("IsDead", true);
+
             
         }
     }
