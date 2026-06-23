@@ -34,11 +34,11 @@ public class Boss : MonoBehaviour
     public GameObject Atk1;
     public GameObject Atk2Shockwave;
     public GameObject Schockwave;
-    public int moneyReward = 10;
+    public int moneyReward = 1000;
     private float schockwaveamt = 0;
     private bool schockwave = false;
     private bool isAlive = true;
-
+    private Animator animator;
 
     private void Awake()
     {
@@ -60,6 +60,9 @@ public class Boss : MonoBehaviour
 
     void Start()
     {
+        // ChatGPT code anfang
+        animator = GetComponent<Animator>();
+        // ChatGPT code ende
         direction = 0f;
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
@@ -128,10 +131,12 @@ public class Boss : MonoBehaviour
             if (direction > 0f)
             {
                 direction = direction * (-1);
+                animator.SetBool("IsWalking", true);
             }
             else if (direction < 0f)
             {
                 direction = direction * (-1);
+                animator.SetBool("IsWalking", true);
             }
         }
     }
@@ -157,6 +162,7 @@ public class Boss : MonoBehaviour
     private void Jump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x * direction, 10f);
+        animator.SetBool("IsJumping", true);
     }
 
     private void Shoot()
@@ -170,12 +176,14 @@ public class Boss : MonoBehaviour
         );
         // Ende ChatGPT
         bulletinstance.SetActive(true);
+        animator.SetBool("IsAtacking", true);
     }
 
     private void Swing()
     {
         timerAtk1 = 0f;
         Atk1.SetActive(true);
+        animator.SetBool("IsAttcking2", true);
     }
 
     private void Swing2Shockwave()
@@ -184,6 +192,7 @@ public class Boss : MonoBehaviour
         timerSchockwave = 0f;
         Atk2Shockwave.SetActive(true);   
         schockwave = true;
+        animator.SetBool("IsAttcking2", true);
     }
 
     public void Die()
@@ -194,6 +203,8 @@ public class Boss : MonoBehaviour
             boss.SetActive(false);
             Geld_anzeige.Instance.AddMoney(1000);
             hpactive = true;
+            animator.SetBool("IsDead", true);
+            
         }
     }
 }

@@ -53,7 +53,7 @@ public class EnemyFollow : MonoBehaviour
         {
             enemy.SetActive(false);
             Geld_anzeige.Instance.AddMoney(10);
-
+            
         }
     }
 

@@ -33,7 +33,7 @@ public class Geld_anzeige : MonoBehaviour
         money += amount;
 
         PlayerPrefs.SetInt("coin", money);
-
+        
         UpdateUI();
     }
 

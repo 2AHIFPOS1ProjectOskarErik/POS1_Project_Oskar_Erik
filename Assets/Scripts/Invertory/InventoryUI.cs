@@ -41,7 +41,7 @@ public class InventoryUI : MonoBehaviour
             Keyboard.current.tabKey.wasPressedThisFrame)
         {
             isOpen = !isOpen;
-
+            Debug.Log("Inventory geöfnet: ");
             if (inventoryPanel != null)
                 inventoryPanel.SetActive(isOpen);
         }
@@ -49,6 +49,7 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateTexts()
     {
+        //ChatGPT code anfang
         if (healthText != null)
             healthText.text = PlayerPrefs.GetInt("Health", 0).ToString();
 
@@ -57,5 +58,6 @@ public class InventoryUI : MonoBehaviour
 
         if (coinText != null)
             coinText.text = PlayerPrefs.GetInt("Coins", 0).ToString();
+        //ChatGPT code ende
     }
 }
